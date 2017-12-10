@@ -1,7 +1,7 @@
 $.getJSON("https://api.reddit.com/r/switcharoo/new?limit=1").done(function(data) {
   $(".border ~ .buttons .reply-button a").click();
   var editarea = $($(".border").parents()[1].childNodes[3].childNodes[0].childNodes[1]);
-  editarea.find("textarea")[0].value = "Ah, the ol' reddit [switcharoo](" + data.data.children[0].data.url + ")! (make this creative/relevant and remove this message, then click save)";
+  editarea.find("textarea")[0].value = "Ah, the ol' reddit [switcharoo](" + data.data.children[0].data.url + ")! \n\n(make this creative/relevant and remove this message, then click save)";
   editarea.find("button.save").click(function() {
     wait()
     function wait() {
