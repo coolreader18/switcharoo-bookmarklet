@@ -14,8 +14,10 @@ $.getJSON("https://api.reddit.com/r/switcharoo/new?limit=1").done(function(data)
         var switched = prompt("What was it switched to?", "");
         var context = prompt("How many comments before your switcharoo comment would someone need to read to understand it?", "");
         var submiturl = "https://www.reddit.com/r/switcharoo/submit?url=" + encodeURI(newroo + "?context=" + context) + "&title=" + encodeURI(intent + " vs " + switched);
-        if (confirm("Please read the rules on the sidebar of the popup to make sure that your post follows them. If you can't handle that reponsibility, click cancel.")) {
+        if (prompt("Please read the rules on the sidebar of the popup to make sure that your post follows them. To confirm that you can handle that reponsibility, type in \"switcharoo\".") == "switcharoo") {
           window.open(submiturl, "_blank");
+        } else {
+          alert("Just be responsible next time");
         }
       }
     }
