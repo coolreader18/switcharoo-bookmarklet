@@ -9,10 +9,4 @@ Copy everything from this file into a bookmark: [bookmarklet.js](bookmarklet.js)
 
 ## Credit
 
-[mrcoles' bookmarklet converter](https://github.com/mrcoles/bookmarklet) helped me with testing this, I'd recommend using it on [runkit](https://npm.runkit.com/bookmarklet) if you want to test something, just do
-```
-bookmarklet.convert(`code.code();
-codecodecode;
-code = code;`,{options});
-```
-for multiline code.
+[mrcoles' bookmarklet converter](https://github.com/mrcoles/bookmarklet) helped me with testing this. I also used it and its syntax to make my [bookmarklet loader](https://github.com/coolreader18/bookmarklet-loader).
