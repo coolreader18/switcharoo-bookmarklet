@@ -1,3 +1,8 @@
+// ==Bookmarklet==
+// @name Switcharoo Bookmarklet
+// @author coolreader18
+// ==/Bookmarklet==
+
 if ($(".border").length) {
   $.getJSON("https://api.reddit.com/r/switcharoo/new?limit=1").done(function(data) {
     $(".border ~ .buttons .reply-button a").click();
