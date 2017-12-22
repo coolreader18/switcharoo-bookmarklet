@@ -1,1 +1,0 @@
-javascript:(function()%7Bvar%20s%20%3D%20document.createElement(%22script%22)%3Bs.src%3D%22https%3A%2F%2Fcdn.rawgit.com%2Fcoolreader18%2Fbookmarklet-loader%2Fv1.1%2Fbookmarklet.min.js%22%3Bdocument.body.append(s)%3Bs.onload%20%3D%20function()%20%7BloadGithub(%22coolreader18%2Fswitcharoo-bookmarklet%22%2C%22switcharoo.min.js%22)%3B%7D%7D)()
