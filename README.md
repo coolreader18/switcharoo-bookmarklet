@@ -5,7 +5,7 @@ This is a tool to easily create and post a switcharoo to [/r/switcharoo/new](htt
 
 ## Usage
 
-Copy everything from [this](bookmarklet.js) file into a bookmark. Then permalink to the comment that you'd like reply to, and click that bookmark. Follow the instructions, and congrats! You've made a switcharoo!
+Go [here](https://coolreader18.github.io/bookmarklet-loader/?name=Switcharoo&method=github&script=coolreader18%2Fswitcharoo-bookmarklet%2Fswitcharoo.min.js). Then permalink to the comment that you'd like reply to, and click that bookmark. Follow the instructions, and congrats! You've made a switcharoo!
 
 ## Credit
 
