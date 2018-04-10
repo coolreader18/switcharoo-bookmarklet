@@ -1,0 +1,702 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+@types/node	node_modules/commander/package.json	/^    "@types\/node": "^7.0.48",$/;"	f
+ASSIGNMENT	node_modules/uglify-es/lib/parse.js	/^var ASSIGNMENT = makePredicate([ "=", "+=", "-=", "\/=", "*=", "**=", "%=", ">>=", "<<=", ">>>=", "|=", "^=", "&=" ]);$/;"	v
+ASSIGN_OPS	node_modules/uglify-es/lib/compress.js	/^    var ASSIGN_OPS = [ '+', '-', '\/', '*', '%', '>>', '<<', '>>>', '|', '^', '&' ];$/;"	v
+ASSIGN_OPS_COMMUTATIVE	node_modules/uglify-es/lib/compress.js	/^    var ASSIGN_OPS_COMMUTATIVE = [ '*', '|', '^', '&' ];$/;"	v
+AST_Node.from_mozilla_ast	node_modules/uglify-es/lib/mozilla-ast.js	/^    };$/;"	f
+AST_Node.warn	node_modules/uglify-es/lib/ast.js	/^AST_Node.warn_function = null;$/;"	f
+AST_Node.warn_function	node_modules/uglify-es/lib/minify.js	/^        if (options.warnings && !AST_Node.warn_function) {$/;"	f
+ATOMIC_START_TOKEN	node_modules/uglify-es/lib/parse.js	/^var ATOMIC_START_TOKEN = makePredicate([ "atom", "num", "string", "regexp", "name" ]);$/;"	v
+ArraySet	node_modules/source-map/lib/array-set.js	/^function ArraySet() {$/;"	c
+ArraySet	node_modules/source-map/lib/source-map-consumer.js	/^var ArraySet = require('.\/array-set').ArraySet;$/;"	v
+ArraySet	node_modules/source-map/lib/source-map-generator.js	/^var ArraySet = require('.\/array-set').ArraySet;$/;"	v
+ArraySet.add	node_modules/source-map/lib/array-set.js	/^ArraySet.prototype.add = function ArraySet_add(aStr, aAllowDuplicates) {$/;"	m
+ArraySet.at	node_modules/source-map/lib/array-set.js	/^ArraySet.prototype.at = function ArraySet_at(aIdx) {$/;"	m
+ArraySet.fromArray	node_modules/source-map/lib/array-set.js	/^}$/;"	f
+ArraySet.has	node_modules/source-map/lib/array-set.js	/^ArraySet.prototype.has = function ArraySet_has(aStr) {$/;"	m
+ArraySet.indexOf	node_modules/source-map/lib/array-set.js	/^ArraySet.prototype.indexOf = function ArraySet_indexOf(aStr) {$/;"	m
+ArraySet.size	node_modules/source-map/lib/array-set.js	/^ArraySet.prototype.size = function ArraySet_size() {$/;"	m
+ArraySet.toArray	node_modules/source-map/lib/array-set.js	/^ArraySet.prototype.toArray = function ArraySet_toArray() {$/;"	m
+ArraySet_fromArray	node_modules/source-map/lib/array-set.js	/^ArraySet.fromArray = function ArraySet_fromArray(aArray, aAllowDuplicates) {$/;"	f
+BasicSourceMapConsumer	node_modules/source-map/lib/source-map-consumer.js	/^function BasicSourceMapConsumer(aSourceMap, aSourceMapURL) {$/;"	c
+BasicSourceMapConsumer._findMapping	node_modules/source-map/lib/source-map-consumer.js	/^BasicSourceMapConsumer.prototype._findMapping =$/;"	m
+BasicSourceMapConsumer._findSourceIndex	node_modules/source-map/lib/source-map-consumer.js	/^BasicSourceMapConsumer.prototype._findSourceIndex = function(aSource) {$/;"	m
+BasicSourceMapConsumer._parseMappings	node_modules/source-map/lib/source-map-consumer.js	/^BasicSourceMapConsumer.prototype._parseMappings =$/;"	m
+BasicSourceMapConsumer._version	node_modules/source-map/lib/source-map-consumer.js	/^BasicSourceMapConsumer.prototype._version = 3;$/;"	m
+BasicSourceMapConsumer.computeColumnSpans	node_modules/source-map/lib/source-map-consumer.js	/^BasicSourceMapConsumer.prototype.computeColumnSpans =$/;"	m
+BasicSourceMapConsumer.consumer	node_modules/source-map/lib/source-map-consumer.js	/^BasicSourceMapConsumer.prototype.consumer = SourceMapConsumer;$/;"	m
+BasicSourceMapConsumer.fromSourceMap	node_modules/source-map/lib/source-map-consumer.js	/^};$/;"	f
+BasicSourceMapConsumer.hasContentsOfAllSources	node_modules/source-map/lib/source-map-consumer.js	/^BasicSourceMapConsumer.prototype.hasContentsOfAllSources =$/;"	m
+BasicSourceMapConsumer.originalPositionFor	node_modules/source-map/lib/source-map-consumer.js	/^BasicSourceMapConsumer.prototype.originalPositionFor =$/;"	m
+BasicSourceMapConsumer.sourceContentFor	node_modules/source-map/lib/source-map-consumer.js	/^BasicSourceMapConsumer.prototype.sourceContentFor =$/;"	m
+BasicSourceMapConsumer.var.needle.generatedLine	node_modules/source-map/lib/source-map-consumer.js	/^    var needle = {$/;"	p
+Command	node_modules/commander/index.js	/^function Command(name) {$/;"	c
+Command.__proto__	node_modules/commander/index.js	/^Command.prototype.__proto__ = EventEmitter.prototype;$/;"	m
+Command.action	node_modules/commander/index.js	/^Command.prototype.action = function(fn) {$/;"	m
+Command.addImplicitHelpCommand	node_modules/commander/index.js	/^Command.prototype.addImplicitHelpCommand = function() {$/;"	m
+Command.alias	node_modules/commander/index.js	/^Command.prototype.alias = function(alias) {$/;"	m
+Command.allowUnknownOption	node_modules/commander/index.js	/^Command.prototype.allowUnknownOption = function(arg) {$/;"	m
+Command.arguments	node_modules/commander/index.js	/^Command.prototype.arguments = function (desc) {$/;"	m
+Command.cb	node_modules/commander/index.js	/^  if (!cb) {$/;"	f
+Command.command	node_modules/commander/index.js	/^Command.prototype.command = function(name, desc, opts) {$/;"	m
+Command.commandHelp	node_modules/commander/index.js	/^Command.prototype.commandHelp = function() {$/;"	m
+Command.description	node_modules/commander/index.js	/^Command.prototype.description = function(str) {$/;"	m
+Command.executeSubCommand	node_modules/commander/index.js	/^Command.prototype.executeSubCommand = function(argv, args, unknown) {$/;"	m
+Command.fn	node_modules/commander/index.js	/^      var regex = fn;$/;"	f
+Command.help	node_modules/commander/index.js	/^Command.prototype.help = function(cb) {$/;"	m
+Command.helpInformation	node_modules/commander/index.js	/^Command.prototype.helpInformation = function() {$/;"	m
+Command.largestOptionLength	node_modules/commander/index.js	/^Command.prototype.largestOptionLength = function() {$/;"	m
+Command.missingArgument	node_modules/commander/index.js	/^Command.prototype.missingArgument = function(name) {$/;"	m
+Command.name	node_modules/commander/index.js	/^Command.prototype.name = function(str) {$/;"	m
+Command.option	node_modules/commander/index.js	/^Command.prototype.option = function(flags, description, fn, defaultValue) {$/;"	m
+Command.optionFor	node_modules/commander/index.js	/^Command.prototype.optionFor = function(arg) {$/;"	m
+Command.optionHelp	node_modules/commander/index.js	/^Command.prototype.optionHelp = function() {$/;"	m
+Command.optionMissingArgument	node_modules/commander/index.js	/^Command.prototype.optionMissingArgument = function(option, flag) {$/;"	m
+Command.opts	node_modules/commander/index.js	/^Command.prototype.opts = function() {$/;"	m
+Command.outputHelp	node_modules/commander/index.js	/^Command.prototype.outputHelp = function(cb) {$/;"	m
+Command.parse	node_modules/commander/index.js	/^Command.prototype.parse = function(argv) {$/;"	m
+Command.parseArgs	node_modules/commander/index.js	/^Command.prototype.parseArgs = function(args, unknown) {$/;"	m
+Command.parseExpectedArgs	node_modules/commander/index.js	/^Command.prototype.parseExpectedArgs = function(args) {$/;"	m
+Command.parseOptions	node_modules/commander/index.js	/^Command.prototype.parseOptions = function(argv) {$/;"	m
+Command.unknownOption	node_modules/commander/index.js	/^Command.prototype.unknownOption = function(flag) {$/;"	m
+Command.var.listener	node_modules/commander/index.js	/^  var listener = function(args, unknown) {$/;"	f
+Command.variadicArgNotLast	node_modules/commander/index.js	/^Command.prototype.variadicArgNotLast = function(name) {$/;"	m
+Command.version	node_modules/commander/index.js	/^Command.prototype.version = function(str, flags) {$/;"	m
+Compressor	node_modules/uglify-es/lib/compress.js	/^function Compressor(options, false_by_default) {$/;"	c
+DEFMAP	node_modules/uglify-es/lib/output.js	/^    function DEFMAP(nodetype, generator) {$/;"	f
+DEFNODE	node_modules/uglify-es/lib/ast.js	/^function DEFNODE(type, props, methods, base) {$/;"	f
+DefaultsError	node_modules/uglify-es/lib/utils.js	/^function DefaultsError(msg, defs) {$/;"	c
+DefaultsError.constructor	node_modules/uglify-es/lib/utils.js	/^DefaultsError.prototype.constructor = DefaultsError;$/;"	m
+DefaultsError.croak	node_modules/uglify-es/lib/utils.js	/^configure_error_stack(DefaultsError);$/;"	f
+DefaultsError.name	node_modules/uglify-es/lib/utils.js	/^DefaultsError.prototype.name = "DefaultsError";$/;"	m
+Dictionary	node_modules/uglify-es/lib/utils.js	/^function Dictionary() {$/;"	c
+Dictionary.add	node_modules/uglify-es/lib/utils.js	/^    },$/;"	m
+Dictionary.clone	node_modules/uglify-es/lib/utils.js	/^    },$/;"	m
+Dictionary.del	node_modules/uglify-es/lib/utils.js	/^    get: function(key) { return this._values["$" + key] },$/;"	m
+Dictionary.each	node_modules/uglify-es/lib/utils.js	/^    has: function(key) { return ("$" + key) in this._values },$/;"	m
+Dictionary.fromObject	node_modules/uglify-es/lib/utils.js	/^};$/;"	f
+Dictionary.get	node_modules/uglify-es/lib/utils.js	/^    },$/;"	m
+Dictionary.has	node_modules/uglify-es/lib/utils.js	/^    },$/;"	m
+Dictionary.map	node_modules/uglify-es/lib/utils.js	/^    },$/;"	m
+Dictionary.set	node_modules/uglify-es/lib/utils.js	/^Dictionary.prototype = {$/;"	m
+Dictionary.size	node_modules/uglify-es/lib/utils.js	/^    },$/;"	m
+Dictionary.toObject	node_modules/uglify-es/lib/utils.js	/^    },$/;"	m
+EXPECT_DIRECTIVE	node_modules/uglify-es/lib/output.js	/^var EXPECT_DIRECTIVE = \/^$|[;{][\\s\\n]*$\/;$/;"	v
+EX_EOF	node_modules/uglify-es/lib/parse.js	/^var EX_EOF = {};$/;"	v
+EventEmitter	node_modules/commander/index.js	/^var EventEmitter = require('events').EventEmitter;$/;"	v
+FILES	node_modules/uglify-es/tools/node.js	/^var FILES = UglifyJS.FILES = [$/;"	v
+FROM_MOZ_STACK	node_modules/uglify-es/lib/mozilla-ast.js	/^    var FROM_MOZ_STACK = null;$/;"	v
+HOP	node_modules/uglify-es/lib/utils.js	/^function HOP(obj, prop) {$/;"	f
+JS_Parse_Error	node_modules/uglify-es/lib/parse.js	/^function JS_Parse_Error(message, filename, line, col, pos) {$/;"	c
+JS_Parse_Error.constructor	node_modules/uglify-es/lib/parse.js	/^JS_Parse_Error.prototype.constructor = JS_Parse_Error;$/;"	m
+JS_Parse_Error.name	node_modules/uglify-es/lib/parse.js	/^JS_Parse_Error.prototype.name = "SyntaxError";$/;"	m
+KEYWORDS	node_modules/uglify-es/lib/parse.js	/^var KEYWORDS = 'break case catch class const continue debugger default delete do else export extends finally for function if in instanceof let new return switch throw try typeof var void while with';$/;"	v
+KEYWORDS_ATOM	node_modules/uglify-es/lib/parse.js	/^var KEYWORDS_ATOM = 'false null true';$/;"	v
+KEYWORDS_BEFORE_EXPRESSION	node_modules/uglify-es/lib/parse.js	/^var KEYWORDS_BEFORE_EXPRESSION = 'return new delete throw else case yield await';$/;"	v
+MOZ_TO_ME.ArrayExpression	node_modules/uglify-es/lib/mozilla-ast.js	/^        },$/;"	m
+MOZ_TO_ME.ExpressionStatement	node_modules/uglify-es/lib/mozilla-ast.js	/^        },$/;"	m
+MOZ_TO_ME.FunctionDeclaration	node_modules/uglify-es/lib/mozilla-ast.js	/^        },$/;"	m
+MOZ_TO_ME.FunctionExpression	node_modules/uglify-es/lib/mozilla-ast.js	/^        },$/;"	m
+MOZ_TO_ME.MemberExpression	node_modules/uglify-es/lib/mozilla-ast.js	/^        },$/;"	m
+MOZ_TO_ME.ObjectExpression	node_modules/uglify-es/lib/mozilla-ast.js	/^        },$/;"	m
+MOZ_TO_ME.Program	node_modules/uglify-es/lib/mozilla-ast.js	/^    var MOZ_TO_ME = {$/;"	m
+MOZ_TO_ME.Property	node_modules/uglify-es/lib/mozilla-ast.js	/^        },$/;"	m
+MOZ_TO_ME.Property.args.start	node_modules/uglify-es/lib/mozilla-ast.js	/^            var args = {$/;"	p
+MOZ_TO_ME.SequenceExpression	node_modules/uglify-es/lib/mozilla-ast.js	/^        },$/;"	m
+MOZ_TO_ME.TryStatement	node_modules/uglify-es/lib/mozilla-ast.js	/^        },$/;"	m
+Mapping	node_modules/source-map/lib/source-map-consumer.js	/^function Mapping() {$/;"	c
+MappingList	node_modules/source-map/lib/mapping-list.js	/^function MappingList() {$/;"	c
+MappingList	node_modules/source-map/lib/source-map-generator.js	/^var MappingList = require('.\/mapping-list').MappingList;$/;"	v
+MappingList._last.generatedLine	node_modules/source-map/lib/mapping-list.js	/^  this._last = {generatedLine: -1, generatedColumn: 0};$/;"	p
+MappingList.add	node_modules/source-map/lib/mapping-list.js	/^MappingList.prototype.add = function MappingList_add(aMapping) {$/;"	m
+MappingList.toArray	node_modules/source-map/lib/mapping-list.js	/^MappingList.prototype.toArray = function MappingList_toArray() {$/;"	m
+MappingList.unsortedForEach	node_modules/source-map/lib/mapping-list.js	/^MappingList.prototype.unsortedForEach =$/;"	m
+NEWLINE_CHARS	node_modules/uglify-es/lib/parse.js	/^var NEWLINE_CHARS = makePredicate(characters("\\n\\r\\u2028\\u2029"));$/;"	v
+NEWLINE_CODE	node_modules/source-map/lib/source-node.js	/^var NEWLINE_CODE = 10;$/;"	v
+OPERATORS	node_modules/uglify-es/lib/parse.js	/^var OPERATORS = makePredicate([$/;"	v
+OPERATOR_CHARS	node_modules/uglify-es/lib/parse.js	/^var OPERATOR_CHARS = makePredicate(characters("+-*&%=<>!?|~^"));$/;"	v
+Option	node_modules/commander/index.js	/^function Option(flags, description) {$/;"	c
+Option.attributeName	node_modules/commander/index.js	/^Option.prototype.attributeName = function() {$/;"	m
+Option.is	node_modules/commander/index.js	/^Option.prototype.is = function(arg) {$/;"	m
+Option.name	node_modules/commander/index.js	/^Option.prototype.name = function() {$/;"	m
+OutputStream	node_modules/uglify-es/lib/output.js	/^function OutputStream(options) {$/;"	f
+PARENS	node_modules/uglify-es/lib/output.js	/^    function PARENS(nodetype, func) {$/;"	f
+PUNC_AFTER_EXPRESSION	node_modules/uglify-es/lib/parse.js	/^var PUNC_AFTER_EXPRESSION = makePredicate(characters(";]),:"));$/;"	v
+PUNC_BEFORE_EXPRESSION	node_modules/uglify-es/lib/parse.js	/^var PUNC_BEFORE_EXPRESSION = makePredicate(characters("[{(,;:"));$/;"	v
+PUNC_CHARS	node_modules/uglify-es/lib/parse.js	/^var PUNC_CHARS = makePredicate(characters("[]{}(),;:"));$/;"	v
+REGEX_NEWLINE	node_modules/source-map/lib/source-node.js	/^var REGEX_NEWLINE = \/(\\r?\\n)\/;$/;"	v
+RESERVED_WORDS	node_modules/uglify-es/lib/parse.js	/^var RESERVED_WORDS = 'enum implements import interface package private protected public static super this ' + KEYWORDS_ATOM + " " + KEYWORDS;$/;"	v
+RE_BIN_NUMBER	node_modules/uglify-es/lib/parse.js	/^var RE_BIN_NUMBER = \/^0b[01]+$\/i;$/;"	v
+RE_DEC_NUMBER	node_modules/uglify-es/lib/parse.js	/^var RE_DEC_NUMBER = \/^\\d*\\.?\\d*(?:e[+-]?\\d*(?:\\d\\.?|\\.?\\d)\\d*)?$\/i;$/;"	v
+RE_ES6_OCT_NUMBER	node_modules/uglify-es/lib/parse.js	/^var RE_ES6_OCT_NUMBER = \/^0o[0-7]+$\/i;$/;"	v
+RE_HEX_NUMBER	node_modules/uglify-es/lib/parse.js	/^var RE_HEX_NUMBER = \/^0x[0-9a-f]+$\/i;$/;"	v
+RE_NUM_LITERAL	node_modules/uglify-es/lib/parse.js	/^var RE_NUM_LITERAL = \/[0-9a-f]\/i;$/;"	v
+RE_OCT_NUMBER	node_modules/uglify-es/lib/parse.js	/^var RE_OCT_NUMBER = \/^0[0-7]+$\/;$/;"	v
+SourceMap	node_modules/uglify-es/lib/sourcemap.js	/^function SourceMap(options) {$/;"	f
+SourceMap.add	node_modules/uglify-es/lib/sourcemap.js	/^    function add(source, gen_line, gen_col, orig_line, orig_col, name) {$/;"	f
+SourceMapConsumer	node_modules/source-map/lib/source-map-consumer.js	/^function SourceMapConsumer(aSourceMap, aSourceMapURL) {$/;"	f
+SourceMapConsumer	node_modules/source-map/lib/source-map-consumer.js	/^}$/;"	c
+SourceMapConsumer.__generatedMappings	node_modules/source-map/lib/source-map-consumer.js	/^SourceMapConsumer.prototype.__generatedMappings = null;$/;"	m
+SourceMapConsumer.__originalMappings	node_modules/source-map/lib/source-map-consumer.js	/^SourceMapConsumer.prototype.__originalMappings = null;$/;"	m
+SourceMapConsumer._charIsMappingSeparator	node_modules/source-map/lib/source-map-consumer.js	/^SourceMapConsumer.prototype._charIsMappingSeparator =$/;"	m
+SourceMapConsumer._parseMappings	node_modules/source-map/lib/source-map-consumer.js	/^SourceMapConsumer.prototype._parseMappings =$/;"	m
+SourceMapConsumer._version	node_modules/source-map/lib/source-map-consumer.js	/^SourceMapConsumer.prototype._version = 3;$/;"	m
+SourceMapConsumer.allGeneratedPositionsFor	node_modules/source-map/lib/source-map-consumer.js	/^SourceMapConsumer.prototype.allGeneratedPositionsFor =$/;"	m
+SourceMapConsumer.eachMapping	node_modules/source-map/lib/source-map-consumer.js	/^SourceMapConsumer.prototype.eachMapping =$/;"	m
+SourceMapConsumer.fromSourceMap	node_modules/source-map/lib/source-map-consumer.js	/^}$/;"	f
+SourceMapConsumer.var.needle.source	node_modules/source-map/lib/source-map-consumer.js	/^    var needle = {$/;"	p
+SourceMapConsumer_fromSourceMap	node_modules/source-map/lib/source-map-consumer.js	/^  function SourceMapConsumer_fromSourceMap(aSourceMap, aSourceMapURL) {$/;"	f
+SourceMapGenerator	node_modules/source-map/lib/source-map-generator.js	/^function SourceMapGenerator(aArgs) {$/;"	c
+SourceMapGenerator	node_modules/source-map/lib/source-node.js	/^var SourceMapGenerator = require('.\/source-map-generator').SourceMapGenerator;$/;"	v
+SourceMapGenerator._generateSourcesContent	node_modules/source-map/lib/source-map-generator.js	/^SourceMapGenerator.prototype._generateSourcesContent =$/;"	m
+SourceMapGenerator._serializeMappings	node_modules/source-map/lib/source-map-generator.js	/^SourceMapGenerator.prototype._serializeMappings =$/;"	m
+SourceMapGenerator._validateMapping	node_modules/source-map/lib/source-map-generator.js	/^SourceMapGenerator.prototype._validateMapping =$/;"	m
+SourceMapGenerator._version	node_modules/source-map/lib/source-map-generator.js	/^SourceMapGenerator.prototype._version = 3;$/;"	m
+SourceMapGenerator.addMapping	node_modules/source-map/lib/source-map-generator.js	/^SourceMapGenerator.prototype.addMapping =$/;"	m
+SourceMapGenerator.applySourceMap	node_modules/source-map/lib/source-map-generator.js	/^SourceMapGenerator.prototype.applySourceMap =$/;"	m
+SourceMapGenerator.fromSourceMap	node_modules/source-map/lib/source-map-generator.js	/^SourceMapGenerator.prototype._version = 3;$/;"	f
+SourceMapGenerator.setSourceContent	node_modules/source-map/lib/source-map-generator.js	/^SourceMapGenerator.prototype.setSourceContent =$/;"	m
+SourceMapGenerator.toJSON	node_modules/source-map/lib/source-map-generator.js	/^SourceMapGenerator.prototype.toJSON =$/;"	m
+SourceMapGenerator.toString	node_modules/source-map/lib/source-map-generator.js	/^SourceMapGenerator.prototype.toString =$/;"	m
+SourceMapGenerator.var.map.version	node_modules/source-map/lib/source-map-generator.js	/^    var map = {$/;"	p
+SourceMapGenerator_fromSourceMap	node_modules/source-map/lib/source-map-generator.js	/^  function SourceMapGenerator_fromSourceMap(aSourceMapConsumer) {$/;"	f
+SourceNode	node_modules/source-map/lib/source-node.js	/^function SourceNode(aLine, aColumn, aSource, aChunks, aName) {$/;"	c
+SourceNode.add	node_modules/source-map/lib/source-node.js	/^SourceNode.prototype.add = function SourceNode_add(aChunk) {$/;"	m
+SourceNode.fromStringWithSourceMap	node_modules/source-map/lib/source-node.js	/^}$/;"	f
+SourceNode.fromStringWithSourceMap.addMappingWithCode	node_modules/source-map/lib/source-node.js	/^    function addMappingWithCode(mapping, code) {$/;"	f
+SourceNode.fromStringWithSourceMap.shiftNextLine	node_modules/source-map/lib/source-node.js	/^    var shiftNextLine = function() {$/;"	f
+SourceNode.join	node_modules/source-map/lib/source-node.js	/^SourceNode.prototype.join = function SourceNode_join(aSep) {$/;"	m
+SourceNode.prepend	node_modules/source-map/lib/source-node.js	/^SourceNode.prototype.prepend = function SourceNode_prepend(aChunk) {$/;"	m
+SourceNode.replaceRight	node_modules/source-map/lib/source-node.js	/^SourceNode.prototype.replaceRight = function SourceNode_replaceRight(aPattern, aReplacement) {$/;"	m
+SourceNode.setSourceContent	node_modules/source-map/lib/source-node.js	/^SourceNode.prototype.setSourceContent =$/;"	m
+SourceNode.toString	node_modules/source-map/lib/source-node.js	/^SourceNode.prototype.toString = function SourceNode_toString() {$/;"	m
+SourceNode.toStringWithSourceMap	node_modules/source-map/lib/source-node.js	/^SourceNode.prototype.toStringWithSourceMap = function SourceNode_toStringWithSourceMap(aArgs) {$/;"	m
+SourceNode.var.generated.code	node_modules/source-map/lib/source-node.js	/^  var generated = {$/;"	p
+SourceNode.var.generated.column	node_modules/source-map/lib/source-node.js	/^    line: 1,$/;"	p
+SourceNode.var.generated.line	node_modules/source-map/lib/source-node.js	/^    code: "",$/;"	p
+SourceNode.walk	node_modules/source-map/lib/source-node.js	/^SourceNode.prototype.walk = function SourceNode_walk(aFn) {$/;"	m
+SourceNode.walkSourceContents	node_modules/source-map/lib/source-node.js	/^SourceNode.prototype.walkSourceContents =$/;"	m
+SourceNode_fromStringWithSourceMap	node_modules/source-map/lib/source-node.js	/^  function SourceNode_fromStringWithSourceMap(aGeneratedCode, aSourceMapConsumer, aRelativePath) {$/;"	f
+SymbolDef	node_modules/uglify-es/lib/scope.js	/^function SymbolDef(scope, orig, init) {$/;"	c
+SymbolDef.unmangleable	node_modules/uglify-es/lib/scope.js	/^SymbolDef.prototype = {$/;"	m
+TreeTransformer	node_modules/uglify-es/lib/transform.js	/^function TreeTransformer(before, after) {$/;"	c
+TreeWalker	node_modules/uglify-es/lib/ast.js	/^function TreeWalker(callback) {$/;"	c
+TreeWalker._visit	node_modules/uglify-es/lib/ast.js	/^TreeWalker.prototype = {$/;"	m
+TreeWalker.find_parent	node_modules/uglify-es/lib/ast.js	/^    },$/;"	m
+TreeWalker.has_directive	node_modules/uglify-es/lib/ast.js	/^    },$/;"	m
+TreeWalker.loopcontrol_target	node_modules/uglify-es/lib/ast.js	/^    },$/;"	m
+TreeWalker.parent	node_modules/uglify-es/lib/ast.js	/^    },$/;"	m
+TreeWalker.pop	node_modules/uglify-es/lib/ast.js	/^    },$/;"	m
+TreeWalker.push	node_modules/uglify-es/lib/ast.js	/^    },$/;"	m
+TreeWalker.self	node_modules/uglify-es/lib/ast.js	/^    },$/;"	m
+UNARY_POSTFIX	node_modules/uglify-es/lib/parse.js	/^var UNARY_POSTFIX = makePredicate([ "--", "++" ]);$/;"	v
+UNARY_PREFIX	node_modules/uglify-es/lib/parse.js	/^var UNARY_PREFIX = makePredicate([$/;"	v
+UNICODE.ID_Start	node_modules/uglify-es/lib/parse.js	/^var UNICODE = {$/;"	p
+UglifyJS	node_modules/uglify-es/tools/node.js	/^var UglifyJS = exports;$/;"	v
+UglifyJS.default_options	node_modules/uglify-es/tools/node.js	/^}$/;"	f
+VLQ_BASE	node_modules/source-map/lib/base64-vlq.js	/^var VLQ_BASE = 1 << VLQ_BASE_SHIFT;$/;"	v
+VLQ_BASE_MASK	node_modules/source-map/lib/base64-vlq.js	/^var VLQ_BASE_MASK = VLQ_BASE - 1;$/;"	v
+VLQ_BASE_SHIFT	node_modules/source-map/lib/base64-vlq.js	/^var VLQ_BASE_SHIFT = 5;$/;"	v
+VLQ_CONTINUATION_BIT	node_modules/source-map/lib/base64-vlq.js	/^var VLQ_CONTINUATION_BIT = VLQ_BASE;$/;"	v
+WHITESPACE_CHARS	node_modules/uglify-es/lib/parse.js	/^var WHITESPACE_CHARS = makePredicate(characters(" \\u00a0\\n\\r\\t\\f\\u000b\\u200b\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200a\\u2028\\u2029\\u202f\\u205f\\u3000\\uFEFF"));$/;"	v
+_await_expression	node_modules/uglify-es/lib/parse.js	/^    function _await_expression() {$/;"	f
+_function_body	node_modules/uglify-es/lib/parse.js	/^    function _function_body(block, generator, is_async, name, args) {$/;"	f
+_make_symbol	node_modules/uglify-es/lib/parse.js	/^    function _make_symbol(type) {$/;"	f
+_ms	node_modules/uglify-es/lib/utils.js	/^    function _ms(a) {$/;"	f
+_verify_symbol	node_modules/uglify-es/lib/parse.js	/^    function _verify_symbol(sym) {$/;"	f
+_yield_expression	node_modules/uglify-es/lib/parse.js	/^    function _yield_expression() {$/;"	f
+a	node_modules/uglify-es/lib/output.js	/^        var a = str.split(\/\\r?\\n\/), n = a.length - 1;$/;"	v
+aborts	node_modules/uglify-es/lib/compress.js	/^    function aborts(thing) {$/;"	f
+acorn	node_modules/uglify-es/package.json	/^    "acorn": "~5.3.0",$/;"	f
+active_scope	node_modules/uglify-es/lib/output.js	/^    var active_scope = null;$/;"	v
+add	node_modules/uglify-es/tools/props.html	/^      function add(name) {$/;"	f
+addObject	node_modules/uglify-es/tools/props.html	/^      function addObject(obj) {$/;"	f
+addStrings	node_modules/uglify-es/lib/propmangle.js	/^function addStrings(node, add) {$/;"	f
+all	node_modules/uglify-es/lib/utils.js	/^function all(array, predicate) {$/;"	f
+all_refs_local	node_modules/uglify-es/lib/compress.js	/^        function all_refs_local(scope) {$/;"	f
+any	node_modules/uglify-es/lib/compress.js	/^        function any(list, compressor) {$/;"	f
+append_comments	node_modules/uglify-es/lib/output.js	/^    function append_comments(node, tail) {$/;"	f
+array_	node_modules/uglify-es/lib/parse.js	/^    var array_ = embed_tokens(function() {$/;"	v
+arrow_function	node_modules/uglify-es/lib/parse.js	/^    var arrow_function = function(start, argnames, is_async) {$/;"	f
+as_atom_node	node_modules/uglify-es/lib/parse.js	/^    function as_atom_node() {$/;"	f
+as_name	node_modules/uglify-es/lib/parse.js	/^    function as_name() {$/;"	f
+as_property_name	node_modules/uglify-es/lib/parse.js	/^    function as_property_name() {$/;"	f
+as_statement_array	node_modules/uglify-es/lib/compress.js	/^    function as_statement_array(thing) {$/;"	f
+as_statement_array_with_return	node_modules/uglify-es/lib/compress.js	/^            function as_statement_array_with_return(node, ab) {$/;"	f
+as_symbol	node_modules/uglify-es/lib/parse.js	/^    function as_symbol(type, noerror) {$/;"	f
+author	node_modules/commander/package.json	/^  "author": "TJ Holowaychuk <tj@vision-media.ca>",$/;"	f
+author	node_modules/source-map/package.json	/^  "author": "Nick Fitzgerald <nfitzgerald@mozilla.com>",$/;"	f
+author	node_modules/uglify-es/package.json	/^  "author": "Mihai Bazon <mihai.bazon@gmail.com> (http:\/\/lisperator.net\/)",$/;"	f
+author	package.json	/^  "author": "coolreader18",$/;"	f
+base64	node_modules/source-map/lib/base64-vlq.js	/^var base64 = require('.\/base64');$/;"	v
+base64VLQ	node_modules/source-map/lib/source-map-consumer.js	/^var base64VLQ = require('.\/base64-vlq');$/;"	v
+base64VLQ	node_modules/source-map/lib/source-map-generator.js	/^var base64VLQ = require('.\/base64-vlq');$/;"	v
+base64VLQ_decode	node_modules/source-map/lib/base64-vlq.js	/^exports.decode = function base64VLQ_decode(aStr, aIndex, aOutParam) {$/;"	f
+base64VLQ_encode	node_modules/source-map/lib/base64-vlq.js	/^exports.encode = function base64VLQ_encode(aValue) {$/;"	f
+basename	node_modules/commander/index.js	/^var basename = path.basename;$/;"	v
+basic_sourcemap_gen	node_modules/uglify-es/lib/output.js	/^    function basic_sourcemap_gen(self, output) {$/;"	f
+best	node_modules/uglify-es/lib/compress.js	/^        function best(orig, alt, first_in_statement) {$/;"	f
+best_of	node_modules/uglify-es/lib/compress.js	/^    function best_of(compressor, ast1, ast2) {$/;"	f
+best_of	node_modules/uglify-es/lib/output.js	/^    function best_of(a) {$/;"	f
+best_of_expression	node_modules/uglify-es/lib/compress.js	/^    function best_of_expression(ast1, ast2) {$/;"	f
+best_of_statement	node_modules/uglify-es/lib/compress.js	/^    function best_of_statement(ast1, ast2) {$/;"	f
+bin	node_modules/uglify-es/package.json	/^  "bin": {$/;"	f
+binary	node_modules/uglify-es/lib/compress.js	/^        var binary = makePredicate("- * \/ % & | ^ << >> >>>");$/;"	v
+binarySearch	node_modules/source-map/lib/source-map-consumer.js	/^var binarySearch = require('.\/binary-search');$/;"	v
+binary_bool	node_modules/uglify-es/lib/compress.js	/^        var binary_bool = [ "in", "instanceof", "==", "!=", "===", "!==", "<", "<=", ">=", ">" ];$/;"	v
+binding_element	node_modules/uglify-es/lib/parse.js	/^    function binding_element(used_parameters, symbol_type) {$/;"	f
+block_	node_modules/uglify-es/lib/parse.js	/^    function block_() {$/;"	f
+block_aborts	node_modules/uglify-es/lib/compress.js	/^        function block_aborts(){$/;"	f
+break_cont	node_modules/uglify-es/lib/parse.js	/^    function break_cont(type) {$/;"	f
+build	node_modules/source-map/package.json	/^    "build": "webpack --color",$/;"	f
+build	package.json	/^    "build":$/;"	f
+call_args	node_modules/uglify-es/lib/parse.js	/^    var call_args = embed_tokens(function _call_args() {$/;"	v
+can_be_evicted_from_block	node_modules/uglify-es/lib/compress.js	/^    function can_be_evicted_from_block(node) {$/;"	f
+characters	node_modules/uglify-es/lib/utils.js	/^function characters(str) {$/;"	f
+class_	node_modules/uglify-es/lib/parse.js	/^    function class_(KindOfClass) {$/;"	f
+cmp	node_modules/uglify-es/tools/props.html	/^      function cmp(a, b) {$/;"	f
+collapse.extract_args	node_modules/uglify-es/lib/compress.js	/^            function extract_args() {$/;"	f
+collapse.extract_candidates	node_modules/uglify-es/lib/compress.js	/^            function extract_candidates(expr) {$/;"	f
+collapse.has_overlapping_symbol	node_modules/uglify-es/lib/compress.js	/^            function has_overlapping_symbol(fn, arg, fn_strict) {$/;"	f
+colon	node_modules/uglify-es/lib/output.js	/^    function colon() {$/;"	f
+comma	node_modules/uglify-es/lib/output.js	/^    function comma() {$/;"	f
+commander	node_modules/uglify-es/package.json	/^    "commander": "~2.13.0",$/;"	f
+comment_filter	node_modules/uglify-es/lib/output.js	/^        if (comments instanceof RegExp) {$/;"	f
+commutativeOperators	node_modules/uglify-es/lib/compress.js	/^    var commutativeOperators = makePredicate("== === != !== * & | ^");$/;"	v
+compareTo	node_modules/uglify-es/lib/utils.js	/^    function compareTo(arr) {$/;"	f
+concise_method_or_getset	node_modules/uglify-es/lib/parse.js	/^    function concise_method_or_getset(name, start, is_class) {$/;"	f
+concise_method_or_getset.get_ast	node_modules/uglify-es/lib/parse.js	/^        var get_ast = function(name, token) {$/;"	f
+configure_error_stack	node_modules/uglify-es/lib/utils.js	/^function configure_error_stack(fn) {$/;"	f
+const_	node_modules/uglify-es/lib/parse.js	/^    var const_ = function(no_in) {$/;"	f
+contributors	node_modules/source-map/package.json	/^  "contributors": [$/;"	f
+convert_to_predicate	node_modules/uglify-es/lib/compress.js	/^    function convert_to_predicate(obj) {$/;"	f
+create_accessor	node_modules/uglify-es/lib/parse.js	/^    var create_accessor = embed_tokens(function(is_generator, is_async) {$/;"	v
+ctor	node_modules/uglify-es/lib/ast.js	/^    if (proto) {$/;"	c
+ctor.DEFMETHOD	node_modules/uglify-es/lib/ast.js	/^    }$/;"	c
+ctor.TYPE	node_modules/uglify-es/lib/ast.js	/^        ctor.prototype.TYPE = ctor.TYPE = type;$/;"	m
+dataUrlRegexp	node_modules/source-map/lib/util.js	/^var dataUrlRegexp = \/^data:.+\\,.+$\/;$/;"	v
+declarations_only	node_modules/uglify-es/lib/compress.js	/^        function declarations_only(node) {$/;"	f
+def_to_moz	node_modules/uglify-es/lib/mozilla-ast.js	/^    function def_to_moz(mytype, handler) {$/;"	f
+defaults	node_modules/uglify-es/lib/utils.js	/^function defaults(args, defs, croak) {$/;"	f
+dependencies	node_modules/commander/package.json	/^  "dependencies": {},$/;"	f
+dependencies	node_modules/uglify-es/package.json	/^  "dependencies": {$/;"	f
+describe_ast	node_modules/uglify-es/tools/node.js	/^function describe_ast() {$/;"	f
+describe_ast.doitem	node_modules/uglify-es/tools/node.js	/^    function doitem(ctor) {$/;"	f
+description	node_modules/commander/package.json	/^  "description": "the complete solution for node.js command-line programs",$/;"	f
+description	node_modules/source-map/package.json	/^  "description": "Generates and consumes source maps",$/;"	f
+description	node_modules/uglify-es/package.json	/^  "description": "JavaScript parser, mangler\/compressor and beautifier toolkit for ES6+",$/;"	f
+description	package.json	/^  "description": "Ah, the ol ' bookmarklet to easily switcharoo!",$/;"	f
+devDependencies	node_modules/commander/package.json	/^  "devDependencies": {$/;"	f
+devDependencies	node_modules/source-map/package.json	/^  "devDependencies": {$/;"	f
+devDependencies	node_modules/uglify-es/package.json	/^  "devDependencies": {$/;"	f
+devDependencies	package.json	/^  "devDependencies": {$/;"	f
+dirname	node_modules/commander/index.js	/^var dirname = path.dirname;$/;"	v
+display_body	node_modules/uglify-es/lib/output.js	/^    function display_body(body, is_toplevel, output, allow_directives) {$/;"	f
+doQuickSort	node_modules/source-map/lib/quick-sort.js	/^function doQuickSort(ary, comparator, p, r) {$/;"	f
+do_list	node_modules/uglify-es/lib/transform.js	/^    function do_list(list, tw) {$/;"	f
+doctoc	node_modules/source-map/package.json	/^    "doctoc": "^0.15.0",$/;"	f
+eliminate_dead_code	node_modules/uglify-es/lib/compress.js	/^        function eliminate_dead_code(statements, compressor) {$/;"	f
+eliminate_spurious_blocks	node_modules/uglify-es/lib/compress.js	/^        function eliminate_spurious_blocks(statements) {$/;"	f
+encode_string	node_modules/uglify-es/lib/output.js	/^    function encode_string(str, quote) {$/;"	f
+engines	node_modules/source-map/package.json	/^  "engines": {$/;"	f
+engines	node_modules/uglify-es/package.json	/^  "engines": {$/;"	f
+exit	node_modules/uglify-es/tools/exit.js	/^var exit = process.exit;$/;"	v
+export_	node_modules/uglify-es/lib/parse.js	/^    function export_() {$/;"	f
+exports.decode	node_modules/source-map/lib/base64-vlq.js	/^};$/;"	f
+exports.decode	node_modules/source-map/lib/base64.js	/^};$/;"	f
+exports.encode	node_modules/source-map/lib/base64-vlq.js	/^}$/;"	f
+exports.encode	node_modules/source-map/lib/base64.js	/^var intToCharMap = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+\/'.split('');$/;"	f
+exports.isAbsolute	node_modules/source-map/lib/util.js	/^exports.join = join;$/;"	f
+exports.quickSort	node_modules/source-map/lib/quick-sort.js	/^}$/;"	f
+exports.search	node_modules/source-map/lib/binary-search.js	/^}$/;"	f
+expr_atom	node_modules/uglify-es/lib/parse.js	/^    var expr_atom = function(allow_calls, allow_arrows) {$/;"	f
+expr_list	node_modules/uglify-es/lib/parse.js	/^    function expr_list(closing, allow_trailing_comma, allow_empty) {$/;"	f
+expr_op	node_modules/uglify-es/lib/parse.js	/^    var expr_op = function(left, min_prec, no_in) {$/;"	f
+expr_ops	node_modules/uglify-es/lib/parse.js	/^    function expr_ops(no_in) {$/;"	f
+expression	node_modules/uglify-es/lib/parse.js	/^    var expression = function(commas, no_in) {$/;"	f
+extract_declarations_from_unreachable_code	node_modules/uglify-es/lib/compress.js	/^    function extract_declarations_from_unreachable_code(compressor, stat, target) {$/;"	f
+extract_functions	node_modules/uglify-es/lib/compress.js	/^            function extract_functions() {$/;"	f
+files	node_modules/commander/package.json	/^  "files": [$/;"	f
+files	node_modules/source-map/package.json	/^  "files": [$/;"	f
+files	node_modules/uglify-es/package.json	/^  "files": [$/;"	f
+find	node_modules/uglify-es/lib/parse.js	/^    function find(what, signal_eof) {$/;"	f
+find_builtins	node_modules/uglify-es/lib/propmangle.js	/^function find_builtins(reserved) {$/;"	f
+find_builtins.add	node_modules/uglify-es/lib/propmangle.js	/^    function add(name) {$/;"	f
+find_eol	node_modules/uglify-es/lib/parse.js	/^    function find_eol() {$/;"	f
+find_if	node_modules/uglify-es/lib/utils.js	/^function find_if(func, array) {$/;"	f
+find_variable	node_modules/uglify-es/lib/compress.js	/^    function find_variable(compressor, name) {$/;"	f
+first_in_statement	node_modules/uglify-es/lib/utils.js	/^function first_in_statement(stack) {$/;"	f
+for_	node_modules/uglify-es/lib/parse.js	/^    function for_() {$/;"	f
+for_in	node_modules/uglify-es/lib/parse.js	/^    function for_in(init) {$/;"	f
+for_of	node_modules/uglify-es/lib/parse.js	/^    function for_of(init) {$/;"	f
+force_semicolon	node_modules/uglify-es/lib/output.js	/^    function force_semicolon() {$/;"	f
+force_statement	node_modules/uglify-es/lib/output.js	/^    function force_statement(stat, output) {$/;"	f
+forward	node_modules/uglify-es/lib/parse.js	/^    function forward(i) {$/;"	f
+fromVLQSigned	node_modules/source-map/lib/base64-vlq.js	/^function fromVLQSigned(aValue) {$/;"	f
+from_char_code	node_modules/uglify-es/lib/parse.js	/^function from_char_code(code) {$/;"	f
+from_moz	node_modules/uglify-es/lib/mozilla-ast.js	/^    function from_moz(node) {$/;"	f
+fs	node_modules/commander/index.js	/^var fs = require('fs');$/;"	v
+fs	node_modules/uglify-es/tools/node.js	/^var fs = require("fs");$/;"	v
+function.camelcase	node_modules/commander/index.js	/^function camelcase(flag) {$/;"	f
+function.exists	node_modules/commander/index.js	/^function exists(file) {$/;"	f
+function.humanReadableArgName	node_modules/commander/index.js	/^function humanReadableArgName(arg) {$/;"	f
+function.outputHelpIfNecessary	node_modules/commander/index.js	/^function outputHelpIfNecessary(cmd, options) {$/;"	f
+function.pad	node_modules/commander/index.js	/^function pad(str, width) {$/;"	f
+function_	node_modules/uglify-es/lib/parse.js	/^    var function_ = function(ctor, is_generator_property, is_async, is_export_default) {$/;"	f
+generatedPositionAfter	node_modules/source-map/lib/mapping-list.js	/^function generatedPositionAfter(mappingA, mappingB) {$/;"	f
+get	node_modules/uglify-es/lib/output.js	/^    function get() {$/;"	f
+getArg	node_modules/source-map/lib/util.js	/^function getArg(aArgs, aName, aDefaultValue) {$/;"	f
+get_full_char	node_modules/uglify-es/lib/parse.js	/^function get_full_char(str, pos) {$/;"	f
+get_full_char_code	node_modules/uglify-es/lib/parse.js	/^function get_full_char_code(str, pos) {$/;"	f
+get_full_char_length	node_modules/uglify-es/lib/parse.js	/^function get_full_char_length(str) {$/;"	f
+get_value	node_modules/uglify-es/lib/compress.js	/^    function get_value(key) {$/;"	f
+global_names	node_modules/uglify-es/lib/compress.js	/^    var global_names = makePredicate("Array Boolean clearInterval clearTimeout console Date decodeURI decodeURIComponent encodeURI encodeURIComponent Error escape eval EvalError Function isFinite isNaN JSON Math Number parseFloat parseInt RangeError ReferenceError RegExp Object setInterval setTimeout String SyntaxError TypeError unescape URIError");$/;"	v
+global_objs.Array	node_modules/uglify-es/lib/compress.js	/^        var global_objs = {$/;"	p
+global_objs.Math	node_modules/uglify-es/lib/compress.js	/^            Array: Array,$/;"	p
+global_objs.Number	node_modules/uglify-es/lib/compress.js	/^            Math: Math,$/;"	p
+global_pure_fns	node_modules/uglify-es/lib/compress.js	/^    var global_pure_fns = makePredicate("Boolean decodeURI decodeURIComponent Date encodeURI encodeURIComponent Error escape EvalError isFinite isNaN Number Object parseFloat parseInt RangeError ReferenceError String SyntaxError TypeError unescape URIError");$/;"	v
+handle_dot	node_modules/uglify-es/lib/parse.js	/^    function handle_dot() {$/;"	f
+handle_eq_sign	node_modules/uglify-es/lib/parse.js	/^    function handle_eq_sign() {$/;"	f
+handle_if_return	node_modules/uglify-es/lib/compress.js	/^        function handle_if_return(statements, compressor) {$/;"	f
+handle_if_return.can_merge_flow	node_modules/uglify-es/lib/compress.js	/^            function can_merge_flow(ab) {$/;"	f
+handle_if_return.has_multiple_if_returns	node_modules/uglify-es/lib/compress.js	/^            function has_multiple_if_returns(statements) {$/;"	f
+handle_if_return.is_return_void	node_modules/uglify-es/lib/compress.js	/^            function is_return_void(value) {$/;"	f
+handle_regexp	node_modules/uglify-es/lib/parse.js	/^    function handle_regexp() {$/;"	f
+handle_slash	node_modules/uglify-es/lib/parse.js	/^    function handle_slash() {$/;"	f
+hasNativeMap	node_modules/source-map/lib/array-set.js	/^var hasNativeMap = typeof Map !== "undefined";$/;"	v
+has_nlb	node_modules/uglify-es/lib/output.js	/^    function has_nlb() {$/;"	f
+hex_bytes	node_modules/uglify-es/lib/parse.js	/^    function hex_bytes(n) {$/;"	f
+homepage	node_modules/source-map/package.json	/^  "homepage": "https:\/\/github.com\/mozilla\/source-map",$/;"	f
+homepage	node_modules/uglify-es/package.json	/^  "homepage": "https:\/\/github.com\/mishoo\/UglifyJS2\/tree\/harmony",$/;"	f
+identifier_atom	node_modules/uglify-es/lib/compress.js	/^    var identifier_atom = makePredicate("Infinity NaN undefined");$/;"	v
+if_	node_modules/uglify-es/lib/parse.js	/^    function if_() {$/;"	f
+if_break_in_loop	node_modules/uglify-es/lib/compress.js	/^    function if_break_in_loop(self, compressor) {$/;"	f
+if_break_in_loop.drop_it	node_modules/uglify-es/lib/compress.js	/^        function drop_it(rest) {$/;"	f
+if_break_in_loop.is_break	node_modules/uglify-es/lib/compress.js	/^        function is_break(node) {$/;"	f
+import_	node_modules/uglify-es/lib/parse.js	/^    function import_() {$/;"	f
+in_directive	node_modules/uglify-es/lib/output.js	/^    var in_directive = false;$/;"	v
+in_loop	node_modules/uglify-es/lib/parse.js	/^    function in_loop(cont) {$/;"	f
+infer_options	node_modules/uglify-es/tools/node.js	/^function infer_options(options) {$/;"	f
+init_cache	node_modules/uglify-es/lib/minify.js	/^function init_cache(cache) {$/;"	f
+intToCharMap	node_modules/source-map/lib/base64.js	/^var intToCharMap = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+\/'.split('');$/;"	v
+isSourceNode	node_modules/source-map/lib/source-node.js	/^var isSourceNode = "$$$isSourceNode$$$";$/;"	v
+is_assignable	node_modules/uglify-es/lib/parse.js	/^    function is_assignable(expr) {$/;"	f
+is_atomic	node_modules/uglify-es/lib/compress.js	/^    function is_atomic(lhs, self) {$/;"	f
+is_digit	node_modules/uglify-es/lib/parse.js	/^function is_digit(code) {$/;"	f
+is_empty	node_modules/uglify-es/lib/compress.js	/^    function is_empty(thing) {$/;"	f
+is_func_expr	node_modules/uglify-es/lib/compress.js	/^    function is_func_expr(node) {$/;"	f
+is_identifier	node_modules/uglify-es/lib/parse.js	/^function is_identifier(name) {$/;"	f
+is_identifier_atom	node_modules/uglify-es/lib/compress.js	/^    function is_identifier_atom(node) {$/;"	f
+is_identifier_char	node_modules/uglify-es/lib/parse.js	/^function is_identifier_char(ch) {$/;"	f
+is_identifier_start	node_modules/uglify-es/lib/parse.js	/^function is_identifier_start(ch) {$/;"	f
+is_identifier_string	node_modules/uglify-es/lib/parse.js	/^function is_identifier_string(str){$/;"	f
+is_iife_call	node_modules/uglify-es/lib/compress.js	/^    function is_iife_call(node) {$/;"	f
+is_immutable	node_modules/uglify-es/lib/compress.js	/^        function is_immutable(value) {$/;"	f
+is_lhs	node_modules/uglify-es/lib/compress.js	/^    function is_lhs(node, parent) {$/;"	f
+is_lhs_read_only	node_modules/uglify-es/lib/compress.js	/^    function is_lhs_read_only(lhs) {$/;"	f
+is_modified	node_modules/uglify-es/lib/compress.js	/^        function is_modified(tw, node, value, level, immutable) {$/;"	f
+is_object	node_modules/uglify-es/lib/compress.js	/^    function is_object(node) {$/;"	f
+is_reachable	node_modules/uglify-es/lib/compress.js	/^    function is_reachable(self, defs) {$/;"	f
+is_ref_of	node_modules/uglify-es/lib/compress.js	/^    function is_ref_of(ref, type) {$/;"	f
+is_some_comments	node_modules/uglify-es/lib/output.js	/^function is_some_comments(comment) {$/;"	f
+is_strict	node_modules/uglify-es/lib/compress.js	/^        function is_strict(compressor) {$/;"	f
+is_surrogate_pair_head	node_modules/uglify-es/lib/parse.js	/^function is_surrogate_pair_head(code) {$/;"	f
+is_surrogate_pair_tail	node_modules/uglify-es/lib/parse.js	/^function is_surrogate_pair_tail(code) {$/;"	f
+is_token	node_modules/uglify-es/lib/parse.js	/^function is_token(token, type, val) {$/;"	f
+is_undeclared_ref	node_modules/uglify-es/lib/compress.js	/^    function is_undeclared_ref(node) {$/;"	f
+is_undefined	node_modules/uglify-es/lib/compress.js	/^    function is_undefined(node, compressor) {$/;"	f
+join_consecutive_vars	node_modules/uglify-es/lib/compress.js	/^        function join_consecutive_vars(statements) {$/;"	f
+join_consecutive_vars.extract_object_assignments	node_modules/uglify-es/lib/compress.js	/^            function extract_object_assignments(value) {$/;"	f
+join_object_assignments	node_modules/uglify-es/lib/compress.js	/^        function join_object_assignments(defn, body) {$/;"	f
+js_error	node_modules/uglify-es/lib/parse.js	/^function js_error(message, filename, line, col, pos) {$/;"	f
+keywords	node_modules/commander/package.json	/^  "keywords": [$/;"	f
+keywords	node_modules/uglify-es/package.json	/^  "keywords": [$/;"	f
+labeled_statement	node_modules/uglify-es/lib/parse.js	/^    function labeled_statement() {$/;"	f
+last	node_modules/uglify-es/lib/output.js	/^    var last = "";$/;"	v
+lazy_op	node_modules/uglify-es/lib/compress.js	/^    var lazy_op = makePredicate("&& ||");$/;"	v
+let_	node_modules/uglify-es/lib/parse.js	/^    var let_ = function(no_in) {$/;"	f
+license	node_modules/commander/package.json	/^  "license": "MIT",$/;"	f
+license	node_modules/source-map/package.json	/^  "license": "BSD-3-Clause",$/;"	f
+license	node_modules/uglify-es/package.json	/^  "license": "BSD-2-Clause",$/;"	f
+license	package.json	/^  "license": "MIT",$/;"	f
+lift_key	node_modules/uglify-es/lib/compress.js	/^    function lift_key(self, compressor) {$/;"	f
+literals_in_boolean_context	node_modules/uglify-es/lib/compress.js	/^    function literals_in_boolean_context(self, compressor) {$/;"	f
+looking_at	node_modules/uglify-es/lib/parse.js	/^    function looking_at(str) {$/;"	f
+loop_body	node_modules/uglify-es/lib/compress.js	/^    function loop_body(x) {$/;"	f
+main	node_modules/commander/package.json	/^  "main": "index",$/;"	f
+main	node_modules/source-map/package.json	/^  "main": ".\/source-map.js",$/;"	f
+main	node_modules/uglify-es/package.json	/^  "main": "tools\/node.js",$/;"	f
+main	package.json	/^  "main": "switcharoo.js",$/;"	f
+maintain_this_binding	node_modules/uglify-es/lib/compress.js	/^    function maintain_this_binding(parent, orig, val) {$/;"	f
+maintainers	node_modules/uglify-es/package.json	/^  "maintainers": [$/;"	f
+makePredicate	node_modules/uglify-es/lib/utils.js	/^function makePredicate(words) {$/;"	f
+make_block	node_modules/uglify-es/lib/output.js	/^    function make_block(stmt, output) {$/;"	f
+make_indent	node_modules/uglify-es/lib/output.js	/^    function make_indent(back) {$/;"	f
+make_name	node_modules/uglify-es/lib/output.js	/^    function make_name(name) {$/;"	f
+make_node	node_modules/uglify-es/lib/compress.js	/^    function make_node(ctor, orig, props) {$/;"	f
+make_node_from_constant	node_modules/uglify-es/lib/compress.js	/^    function make_node_from_constant(val, orig) {$/;"	f
+make_num	node_modules/uglify-es/lib/output.js	/^    function make_num(num) {$/;"	f
+make_sequence	node_modules/uglify-es/lib/compress.js	/^    function make_sequence(orig, expressions) {$/;"	f
+make_string	node_modules/uglify-es/lib/output.js	/^    function make_string(str, quote) {$/;"	f
+make_string.quote_double	node_modules/uglify-es/lib/output.js	/^        function quote_double() {$/;"	f
+make_string.quote_single	node_modules/uglify-es/lib/output.js	/^        function quote_single() {$/;"	f
+make_string.quote_template	node_modules/uglify-es/lib/output.js	/^        function quote_template() {$/;"	f
+make_then	node_modules/uglify-es/lib/output.js	/^    function make_then(self, output) {$/;"	f
+make_unary	node_modules/uglify-es/lib/parse.js	/^    function make_unary(ctor, token, expr) {$/;"	f
+mangle	node_modules/uglify-es/lib/propmangle.js	/^    function mangle(name) {$/;"	f
+mangleStrings	node_modules/uglify-es/lib/propmangle.js	/^    function mangleStrings(node) {$/;"	f
+mangle_properties	node_modules/uglify-es/lib/propmangle.js	/^function mangle_properties(ast, options) {$/;"	f
+mangle_properties.add	node_modules/uglify-es/lib/propmangle.js	/^    function add(name) {$/;"	f
+mangle_properties.can_mangle	node_modules/uglify-es/lib/propmangle.js	/^    function can_mangle(name) {$/;"	f
+mangle_properties.should_mangle	node_modules/uglify-es/lib/propmangle.js	/^    function should_mangle(name) {$/;"	f
+map	node_modules/uglify-es/lib/mozilla-ast.js	/^    function map(moztype, mytype, propmap) {$/;"	f
+map_name	node_modules/uglify-es/lib/parse.js	/^    function map_name(is_import) {$/;"	f
+map_name.make_symbol	node_modules/uglify-es/lib/parse.js	/^        function make_symbol(type) {$/;"	f
+map_nameAsterisk	node_modules/uglify-es/lib/parse.js	/^    function map_nameAsterisk(is_import, name) {$/;"	f
+map_names	node_modules/uglify-es/lib/parse.js	/^    function map_names(is_import) {$/;"	f
+mapping_token	node_modules/uglify-es/lib/output.js	/^    var mapping_token, mapping_name, mappings = options.source_map && [];$/;"	v
+mark	node_modules/uglify-es/lib/compress.js	/^        function mark(tw, def, safe) {$/;"	f
+mark_def_node	node_modules/uglify-es/lib/compress.js	/^        function mark_def_node(tw, descend, compressor) {$/;"	c
+mark_escaped	node_modules/uglify-es/lib/compress.js	/^        function mark_escaped(tw, d, scope, node, value, level, depth) {$/;"	f
+mark_func_expr	node_modules/uglify-es/lib/compress.js	/^        function mark_func_expr(tw, descend, compressor) {$/;"	f
+mark_pure	node_modules/uglify-es/lib/parse.js	/^    function mark_pure(call) {$/;"	f
+maybe_assign	node_modules/uglify-es/lib/parse.js	/^    var maybe_assign = function(no_in) {$/;"	f
+maybe_conditional	node_modules/uglify-es/lib/parse.js	/^    var maybe_conditional = function(no_in) {$/;"	f
+maybe_unary	node_modules/uglify-es/lib/parse.js	/^    var maybe_unary = function(allow_calls, allow_arrows) {$/;"	f
+member	node_modules/uglify-es/lib/utils.js	/^function member(name, array) {$/;"	f
+merge	node_modules/uglify-es/lib/utils.js	/^function merge(obj, ext) {$/;"	f
+mergeSort	node_modules/uglify-es/lib/utils.js	/^function mergeSort(array, cmp) {$/;"	f
+merge_sequence	node_modules/uglify-es/lib/compress.js	/^    function merge_sequence(array, node) {$/;"	f
+might_add_newline	node_modules/uglify-es/lib/output.js	/^    var might_add_newline = 0;$/;"	v
+might_need_semicolon	node_modules/uglify-es/lib/output.js	/^    var might_need_semicolon = false;$/;"	v
+might_need_space	node_modules/uglify-es/lib/output.js	/^    var might_need_space = false;$/;"	v
+minify	node_modules/uglify-es/lib/minify.js	/^function minify(files, options) {$/;"	f
+mocha	node_modules/uglify-es/package.json	/^    "mocha": "~3.5.1",$/;"	f
+moznode.loc.start	node_modules/uglify-es/lib/mozilla-ast.js	/^            moznode.loc = {$/;"	p
+my_end_token	node_modules/uglify-es/lib/mozilla-ast.js	/^    function my_end_token(moznode) {$/;"	f
+my_start_token	node_modules/uglify-es/lib/mozilla-ast.js	/^    function my_start_token(moznode) {$/;"	f
+name	node_modules/commander/package.json	/^  "name": "commander",$/;"	f
+name	node_modules/source-map/package.json	/^  "name": "source-map",$/;"	f
+name	node_modules/uglify-es/package.json	/^  "name": "uglify-es",$/;"	f
+name	package.json	/^  "name": "switcharoo-bookmarklet",$/;"	f
+native_fns.Array	node_modules/uglify-es/lib/compress.js	/^    var native_fns = {$/;"	p
+need_constructor_parens	node_modules/uglify-es/lib/output.js	/^    function need_constructor_parens(self, output) {$/;"	f
+need_newline_indented	node_modules/uglify-es/lib/output.js	/^    var need_newline_indented = false;$/;"	v
+need_space	node_modules/uglify-es/lib/output.js	/^    var need_space = false;$/;"	v
+new_	node_modules/uglify-es/lib/parse.js	/^    var new_ = function(allow_calls) {$/;"	f
+newline_insert	node_modules/uglify-es/lib/output.js	/^    var newline_insert = -1;$/;"	v
+next	node_modules/uglify-es/lib/parse.js	/^    function next(signal_eof, in_string) {$/;"	f
+next_indent	node_modules/uglify-es/lib/output.js	/^    function next_indent() {$/;"	f
+next_index	node_modules/uglify-es/lib/compress.js	/^            function next_index(i) {$/;"	f
+next_mangled	node_modules/uglify-es/lib/scope.js	/^function next_mangled(scope, options) {$/;"	f
+next_token	node_modules/uglify-es/lib/parse.js	/^    function next_token(force_regexp) {$/;"	f
+next_token.add_directive	node_modules/uglify-es/lib/parse.js	/^    };$/;"	f
+next_token.context	node_modules/uglify-es/lib/parse.js	/^    next_token.peek = peek;$/;"	f
+next_token.has_directive	node_modules/uglify-es/lib/parse.js	/^    }$/;"	f
+next_token.pop_directives_stack	node_modules/uglify-es/lib/parse.js	/^    }$/;"	f
+next_token.push_directives_stack	node_modules/uglify-es/lib/parse.js	/^    }$/;"	f
+node	node_modules/source-map/package.json	/^    "node": ">=0.10.0"$/;"	f
+node	node_modules/uglify-es/package.json	/^    "node": ">=0.8.0"$/;"	f
+noop	node_modules/uglify-es/lib/utils.js	/^function noop() {}$/;"	f
+object_fns	node_modules/uglify-es/lib/compress.js	/^    var object_fns = [$/;"	v
+object_or_destructuring_	node_modules/uglify-es/lib/parse.js	/^    var object_or_destructuring_ = embed_tokens(function object_or_destructuring_() {$/;"	v
+parameter	node_modules/uglify-es/lib/parse.js	/^    function parameter(used_parameters, symbol_type) {$/;"	f
+parameters	node_modules/uglify-es/lib/parse.js	/^    function parameters(params) {$/;"	f
+params_or_seq_	node_modules/uglify-es/lib/parse.js	/^    function params_or_seq_(allow_arrows, maybe_sequence) {$/;"	f
+parenthesize_for_noin	node_modules/uglify-es/lib/output.js	/^    function parenthesize_for_noin(node, output, noin) {$/;"	f
+parse	node_modules/uglify-es/lib/parse.js	/^function parse($TEXT, options) {$/;"	f
+parse.S.input	node_modules/uglify-es/lib/parse.js	/^    var S = {$/;"	p
+parse.can_insert_semicolon	node_modules/uglify-es/lib/parse.js	/^    function can_insert_semicolon() {$/;"	f
+parse.croak	node_modules/uglify-es/lib/parse.js	/^    function croak(msg, line, col, pos) {$/;"	f
+parse.embed_tokens	node_modules/uglify-es/lib/parse.js	/^    function embed_tokens(parser) {$/;"	f
+parse.expect	node_modules/uglify-es/lib/parse.js	/^    function expect(punc) { return expect_token("punc", punc); };$/;"	f
+parse.expect_token	node_modules/uglify-es/lib/parse.js	/^    function expect_token(type, val) {$/;"	f
+parse.has_newline_before	node_modules/uglify-es/lib/parse.js	/^    function has_newline_before(token) {$/;"	f
+parse.is	node_modules/uglify-es/lib/parse.js	/^    function is(type, value) {$/;"	f
+parse.is_in_async	node_modules/uglify-es/lib/parse.js	/^    function is_in_async() {$/;"	f
+parse.is_in_generator	node_modules/uglify-es/lib/parse.js	/^    function is_in_generator() {$/;"	f
+parse.next	node_modules/uglify-es/lib/parse.js	/^    function next() {$/;"	f
+parse.parenthesised	node_modules/uglify-es/lib/parse.js	/^    function parenthesised() {$/;"	f
+parse.peek	node_modules/uglify-es/lib/parse.js	/^    function peek() { return S.peeked || (S.peeked = S.input()); };$/;"	f
+parse.prev	node_modules/uglify-es/lib/parse.js	/^    function prev() {$/;"	f
+parse.semicolon	node_modules/uglify-es/lib/parse.js	/^    function semicolon(optional) {$/;"	f
+parse.token_error	node_modules/uglify-es/lib/parse.js	/^    function token_error(token, msg) {$/;"	f
+parse.unexpected	node_modules/uglify-es/lib/parse.js	/^    function unexpected(token) {$/;"	f
+parse_error	node_modules/uglify-es/lib/parse.js	/^    function parse_error(err) {$/;"	f
+parse_js_number	node_modules/uglify-es/lib/parse.js	/^function parse_js_number(num) {$/;"	f
+path	node_modules/commander/index.js	/^var path = require('path');$/;"	v
+peek	node_modules/uglify-es/lib/parse.js	/^    function peek() { return get_full_char(S.text, S.pos); };$/;"	f
+pop	node_modules/uglify-es/lib/compress.js	/^        function pop(tw) {$/;"	f
+prepend_comments	node_modules/uglify-es/lib/output.js	/^    function prepend_comments(node) {$/;"	f
+prev	node_modules/uglify-es/lib/output.js	/^        var prev = last.charAt(last.length - 1);$/;"	v
+prev_index	node_modules/uglify-es/lib/compress.js	/^            function prev_index(i) {$/;"	f
+prev_was_dot	node_modules/uglify-es/lib/parse.js	/^    var prev_was_dot = false;$/;"	v
+print	node_modules/uglify-es/lib/output.js	/^    function print(str) {$/;"	f
+print_bracketed	node_modules/uglify-es/lib/output.js	/^    function print_bracketed(self, output, allow_directives) {$/;"	f
+print_property_name	node_modules/uglify-es/lib/output.js	/^    function print_property_name(key, quote, output) {$/;"	f
+process.exit	node_modules/uglify-es/tools/exit.js	/^var exit = process.exit;$/;"	f
+push	node_modules/uglify-es/lib/compress.js	/^        function push(tw) {$/;"	f
+push_uniq	node_modules/uglify-es/lib/utils.js	/^function push_uniq(array, el) {$/;"	f
+quickSort	node_modules/source-map/lib/source-map-consumer.js	/^var quickSort = require('.\/quick-sort').quickSort;$/;"	v
+quote	node_modules/uglify-es/lib/utils.js	/^    function quote(word) {$/;"	f
+r	node_modules/source-map/dist/source-map.min.js	/^!function(e,n){"object"==typeof exports&&"object"==typeof module?module.exports=n():"function"==typeof define&&define.amd?define([],n):"object"==typeof exports?exports.sourceMap=n():e.sourceMap=n()}(this,function(){return function(e){function n(t){if(r[t])return r[t].exports;var o=r[t]={exports:{},id:t,loaded:!1};return e[t].call(o.exports,o,o.exports,n),o.loaded=!0,o.exports}var r={};return n.m=e,n.c=r,n.p="",n(0)}([function(e,n,r){n.SourceMapGenerator=r(1).SourceMapGenerator,n.SourceMapConsumer=r(7).SourceMapConsumer,n.SourceNode=r(10).SourceNode},function(e,n,r){function t(e){e||(e={}),this._file=i.getArg(e,"file",null),this._sourceRoot=i.getArg(e,"sourceRoot",null),this._skipValidation=i.getArg(e,"skipValidation",!1),this._sources=new s,this._names=new s,this._mappings=new a,this._sourcesContents=null}var o=r(2),i=r(4),s=r(5).ArraySet,a=r(6).MappingList;t.prototype._version=3,t.fromSourceMap=function(e){var n=e.sourceRoot,r=new t({file:e.file,sourceRoot:n});return e.eachMapping(function(e){var t={generated:{line:e.generatedLine,column:e.generatedColumn}};null!=e.source&&(t.source=e.source,null!=n&&(t.source=i.relative(n,t.source)),t.original={line:e.originalLine,column:e.originalColumn},null!=e.name&&(t.name=e.name)),r.addMapping(t)}),e.sources.forEach(function(t){var o=t;null!==n&&(o=i.relative(n,t)),r._sources.has(o)||r._sources.add(o);var s=e.sourceContentFor(t);null!=s&&r.setSourceContent(t,s)}),r},t.prototype.addMapping=function(e){var n=i.getArg(e,"generated"),r=i.getArg(e,"original",null),t=i.getArg(e,"source",null),o=i.getArg(e,"name",null);this._skipValidation||this._validateMapping(n,r,t,o),null!=t&&(t=String(t),this._sources.has(t)||this._sources.add(t)),null!=o&&(o=String(o),this._names.has(o)||this._names.add(o)),this._mappings.add({generatedLine:n.line,generatedColumn:n.column,originalLine:null!=r&&r.line,originalColumn:null!=r&&r.column,source:t,name:o})},t.prototype.setSourceContent=function(e,n){var r=e;null!=this._sourceRoot&&(r=i.relative(this._sourceRoot,r)),null!=n?(this._sourcesContents||(this._sourcesContents=Object.create(null)),this._sourcesContents[i.toSetString(r)]=n):this._sourcesContents&&(delete this._sourcesContents[i.toSetString(r)],0===Object.keys(this._sourcesContents).length&&(this._sourcesContents=null))},t.prototype.applySourceMap=function(e,n,r){var t=n;if(null==n){if(null==e.file)throw new Error('SourceMapGenerator.prototype.applySourceMap requires either an explicit source file, or the source map\\'s "file" property. Both were omitted.');t=e.file}var o=this._sourceRoot;null!=o&&(t=i.relative(o,t));var a=new s,u=new s;this._mappings.unsortedForEach(function(n){if(n.source===t&&null!=n.originalLine){var s=e.originalPositionFor({line:n.originalLine,column:n.originalColumn});null!=s.source&&(n.source=s.source,null!=r&&(n.source=i.join(r,n.source)),null!=o&&(n.source=i.relative(o,n.source)),n.originalLine=s.line,n.originalColumn=s.column,null!=s.name&&(n.name=s.name))}var l=n.source;null==l||a.has(l)||a.add(l);var c=n.name;null==c||u.has(c)||u.add(c)},this),this._sources=a,this._names=u,e.sources.forEach(function(n){var t=e.sourceContentFor(n);null!=t&&(null!=r&&(n=i.join(r,n)),null!=o&&(n=i.relative(o,n)),this.setSourceContent(n,t))},this)},t.prototype._validateMapping=function(e,n,r,t){if(n&&"number"!=typeof n.line&&"number"!=typeof n.column)throw new Error("original.line and original.column are not numbers -- you probably meant to omit the original mapping entirely and only map the generated position. If so, pass null for the original mapping instead of an object with empty or null values.");if((!(e&&"line"in e&&"column"in e&&e.line>0&&e.column>=0)||n||r||t)&&!(e&&"line"in e&&"column"in e&&n&&"line"in n&&"column"in n&&e.line>0&&e.column>=0&&n.line>0&&n.column>=0&&r))throw new Error("Invalid mapping: "+JSON.stringify({generated:e,source:r,original:n,name:t}))},t.prototype._serializeMappings=function(){for(var e,n,r,t,s=0,a=1,u=0,l=0,c=0,g=0,p="",h=this._mappings.toArray(),f=0,d=h.length;f<d;f++){if(n=h[f],e="",n.generatedLine!==a)for(s=0;n.generatedLine!==a;)e+=";",a++;else if(f>0){if(!i.compareByGeneratedPositionsInflated(n,h[f-1]))continue;e+=","}e+=o.encode(n.generatedColumn-s),s=n.generatedColumn,null!=n.source&&(t=this._sources.indexOf(n.source),e+=o.encode(t-g),g=t,e+=o.encode(n.originalLine-1-l),l=n.originalLine-1,e+=o.encode(n.originalColumn-u),u=n.originalColumn,null!=n.name&&(r=this._names.indexOf(n.name),e+=o.encode(r-c),c=r)),p+=e}return p},t.prototype._generateSourcesContent=function(e,n){return e.map(function(e){if(!this._sourcesContents)return null;null!=n&&(e=i.relative(n,e));var r=i.toSetString(e);return Object.prototype.hasOwnProperty.call(this._sourcesContents,r)?this._sourcesContents[r]:null},this)},t.prototype.toJSON=function(){var e={version:this._version,sources:this._sources.toArray(),names:this._names.toArray(),mappings:this._serializeMappings()};return null!=this._file&&(e.file=this._file),null!=this._sourceRoot&&(e.sourceRoot=this._sourceRoot),this._sourcesContents&&(e.sourcesContent=this._generateSourcesContent(e.sources,e.sourceRoot)),e},t.prototype.toString=function(){return JSON.stringify(this.toJSON())},n.SourceMapGenerator=t},function(e,n,r){function t(e){return e<0?(-e<<1)+1:(e<<1)+0}function o(e){var n=1===(1&e),r=e>>1;return n?-r:r}var i=r(3),s=5,a=1<<s,u=a-1,l=a;n.encode=function(e){var n,r="",o=t(e);do n=o&u,o>>>=s,o>0&&(n|=l),r+=i.encode(n);while(o>0);return r},n.decode=function(e,n,r){var t,a,c=e.length,g=0,p=0;do{if(n>=c)throw new Error("Expected more digits in base 64 VLQ value.");if(a=i.decode(e.charCodeAt(n++)),a===-1)throw new Error("Invalid base64 digit: "+e.charAt(n-1));t=!!(a&l),a&=u,g+=a<<p,p+=s}while(t);r.value=o(g),r.rest=n}},function(e,n){var r="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+\/".split("");n.encode=function(e){if(0<=e&&e<r.length)return r[e];throw new TypeError("Must be between 0 and 63: "+e)},n.decode=function(e){var n=65,r=90,t=97,o=122,i=48,s=57,a=43,u=47,l=26,c=52;return n<=e&&e<=r?e-n:t<=e&&e<=o?e-t+l:i<=e&&e<=s?e-i+c:e==a?62:e==u?63:-1}},function(e,n){function r(e,n,r){if(n in e)return e[n];if(3===arguments.length)return r;throw new Error('"'+n+'" is a required argument.')}function t(e){var n=e.match(v);return n?{scheme:n[1],auth:n[2],host:n[3],port:n[4],path:n[5]}:null}function o(e){var n="";return e.scheme&&(n+=e.scheme+":"),n+="\/\/",e.auth&&(n+=e.auth+"@"),e.host&&(n+=e.host),e.port&&(n+=":"+e.port),e.path&&(n+=e.path),n}function i(e){var r=e,i=t(e);if(i){if(!i.path)return e;r=i.path}for(var s,a=n.isAbsolute(r),u=r.split(\/\\\/+\/),l=0,c=u.length-1;c>=0;c--)s=u[c],"."===s?u.splice(c,1):".."===s?l++:l>0&&(""===s?(u.splice(c+1,l),l=0):(u.splice(c,2),l--));return r=u.join("\/"),""===r&&(r=a?"\/":"."),i?(i.path=r,o(i)):r}function s(e,n){""===e&&(e="."),""===n&&(n=".");var r=t(n),s=t(e);if(s&&(e=s.path||"\/"),r&&!r.scheme)return s&&(r.scheme=s.scheme),o(r);if(r||n.match(y))return n;if(s&&!s.host&&!s.path)return s.host=n,o(s);var a="\/"===n.charAt(0)?n:i(e.replace(\/\\\/+$\/,"")+"\/"+n);return s?(s.path=a,o(s)):a}function a(e,n){""===e&&(e="."),e=e.replace(\/\\\/$\/,"");for(var r=0;0!==n.indexOf(e+"\/");){var t=e.lastIndexOf("\/");if(t<0)return n;if(e=e.slice(0,t),e.match(\/^([^\\\/]+:\\\/)?\\\/*$\/))return n;++r}return Array(r+1).join("..\/")+n.substr(e.length+1)}function u(e){return e}function l(e){return g(e)?"$"+e:e}function c(e){return g(e)?e.slice(1):e}function g(e){if(!e)return!1;var n=e.length;if(n<9)return!1;if(95!==e.charCodeAt(n-1)||95!==e.charCodeAt(n-2)||111!==e.charCodeAt(n-3)||116!==e.charCodeAt(n-4)||111!==e.charCodeAt(n-5)||114!==e.charCodeAt(n-6)||112!==e.charCodeAt(n-7)||95!==e.charCodeAt(n-8)||95!==e.charCodeAt(n-9))return!1;for(var r=n-10;r>=0;r--)if(36!==e.charCodeAt(r))return!1;return!0}function p(e,n,r){var t=f(e.source,n.source);return 0!==t?t:(t=e.originalLine-n.originalLine,0!==t?t:(t=e.originalColumn-n.originalColumn,0!==t||r?t:(t=e.generatedColumn-n.generatedColumn,0!==t?t:(t=e.generatedLine-n.generatedLine,0!==t?t:f(e.name,n.name)))))}function h(e,n,r){var t=e.generatedLine-n.generatedLine;return 0!==t?t:(t=e.generatedColumn-n.generatedColumn,0!==t||r?t:(t=f(e.source,n.source),0!==t?t:(t=e.originalLine-n.originalLine,0!==t?t:(t=e.originalColumn-n.originalColumn,0!==t?t:f(e.name,n.name)))))}function f(e,n){return e===n?0:null===e?1:null===n?-1:e>n?1:-1}function d(e,n){var r=e.generatedLine-n.generatedLine;return 0!==r?r:(r=e.generatedColumn-n.generatedColumn,0!==r?r:(r=f(e.source,n.source),0!==r?r:(r=e.originalLine-n.originalLine,0!==r?r:(r=e.originalColumn-n.originalColumn,0!==r?r:f(e.name,n.name)))))}function m(e){return JSON.parse(e.replace(\/^\\)]}'[^\\n]*\\n\/,""))}function _(e,n,r){if(n=n||"",e&&("\/"!==e[e.length-1]&&"\/"!==n[0]&&(e+="\/"),n=e+n),r){var a=t(r);if(!a)throw new Error("sourceMapURL could not be parsed");if(a.path){var u=a.path.lastIndexOf("\/");u>=0&&(a.path=a.path.substring(0,u+1))}n=s(o(a),n)}return i(n)}n.getArg=r;var v=\/^(?:([\\w+\\-.]+):)?\\\/\\\/(?:(\\w+:\\w+)@)?([\\w.-]*)(?::(\\d+))?(.*)$\/,y=\/^data:.+\\,.+$\/;n.urlParse=t,n.urlGenerate=o,n.normalize=i,n.join=s,n.isAbsolute=function(e){return"\/"===e.charAt(0)||v.test(e)},n.relative=a;var C=function(){var e=Object.create(null);return!("__proto__"in e)}();n.toSetString=C?u:l,n.fromSetString=C?u:c,n.compareByOriginalPositions=p,n.compareByGeneratedPositionsDeflated=h,n.compareByGeneratedPositionsInflated=d,n.parseSourceMapInput=m,n.computeSourceURL=_},function(e,n,r){function t(){this._array=[],this._set=s?new Map:Object.create(null)}var o=r(4),i=Object.prototype.hasOwnProperty,s="undefined"!=typeof Map;t.fromArray=function(e,n){for(var r=new t,o=0,i=e.length;o<i;o++)r.add(e[o],n);return r},t.prototype.size=function(){return s?this._set.size:Object.getOwnPropertyNames(this._set).length},t.prototype.add=function(e,n){var r=s?e:o.toSetString(e),t=s?this.has(e):i.call(this._set,r),a=this._array.length;t&&!n||this._array.push(e),t||(s?this._set.set(e,a):this._set[r]=a)},t.prototype.has=function(e){if(s)return this._set.has(e);var n=o.toSetString(e);return i.call(this._set,n)},t.prototype.indexOf=function(e){if(s){var n=this._set.get(e);if(n>=0)return n}else{var r=o.toSetString(e);if(i.call(this._set,r))return this._set[r]}throw new Error('"'+e+'" is not in the set.')},t.prototype.at=function(e){if(e>=0&&e<this._array.length)return this._array[e];throw new Error("No element indexed by "+e)},t.prototype.toArray=function(){return this._array.slice()},n.ArraySet=t},function(e,n,r){function t(e,n){var r=e.generatedLine,t=n.generatedLine,o=e.generatedColumn,s=n.generatedColumn;return t>r||t==r&&s>=o||i.compareByGeneratedPositionsInflated(e,n)<=0}function o(){this._array=[],this._sorted=!0,this._last={generatedLine:-1,generatedColumn:0}}var i=r(4);o.prototype.unsortedForEach=function(e,n){this._array.forEach(e,n)},o.prototype.add=function(e){t(this._last,e)?(this._last=e,this._array.push(e)):(this._sorted=!1,this._array.push(e))},o.prototype.toArray=function(){return this._sorted||(this._array.sort(i.compareByGeneratedPositionsInflated),this._sorted=!0),this._array},n.MappingList=o},function(e,n,r){function t(e,n){var r=e;return"string"==typeof e&&(r=a.parseSourceMapInput(e)),null!=r.sections?new s(r,n):new o(r,n)}function o(e,n){var r=e;"string"==typeof e&&(r=a.parseSourceMapInput(e));var t=a.getArg(r,"version"),o=a.getArg(r,"sources"),i=a.getArg(r,"names",[]),s=a.getArg(r,"sourceRoot",null),u=a.getArg(r,"sourcesContent",null),c=a.getArg(r,"mappings"),g=a.getArg(r,"file",null);if(t!=this._version)throw new Error("Unsupported version: "+t);s&&(s=a.normalize(s)),o=o.map(String).map(a.normalize).map(function(e){return s&&a.isAbsolute(s)&&a.isAbsolute(e)?a.relative(s,e):e}),this._names=l.fromArray(i.map(String),!0),this._sources=l.fromArray(o,!0),this._absoluteSources=this._sources.toArray().map(function(e){return a.computeSourceURL(s,e,n)}),this.sourceRoot=s,this.sourcesContent=u,this._mappings=c,this._sourceMapURL=n,this.file=g}function i(){this.generatedLine=0,this.generatedColumn=0,this.source=null,this.originalLine=null,this.originalColumn=null,this.name=null}function s(e,n){var r=e;"string"==typeof e&&(r=a.parseSourceMapInput(e));var o=a.getArg(r,"version"),i=a.getArg(r,"sections");if(o!=this._version)throw new Error("Unsupported version: "+o);this._sources=new l,this._names=new l;var s={line:-1,column:0};this._sections=i.map(function(e){if(e.url)throw new Error("Support for url field in sections not implemented.");var r=a.getArg(e,"offset"),o=a.getArg(r,"line"),i=a.getArg(r,"column");if(o<s.line||o===s.line&&i<s.column)throw new Error("Section offsets must be ordered and non-overlapping.");return s=r,{generatedOffset:{generatedLine:o+1,generatedColumn:i+1},consumer:new t(a.getArg(e,"map"),n)}})}var a=r(4),u=r(8),l=r(5).ArraySet,c=r(2),g=r(9).quickSort;t.fromSourceMap=function(e,n){return o.fromSourceMap(e,n)},t.prototype._version=3,t.prototype.__generatedMappings=null,Object.defineProperty(t.prototype,"_generatedMappings",{configurable:!0,enumerable:!0,get:function(){return this.__generatedMappings||this._parseMappings(this._mappings,this.sourceRoot),this.__generatedMappings}}),t.prototype.__originalMappings=null,Object.defineProperty(t.prototype,"_originalMappings",{configurable:!0,enumerable:!0,get:function(){return this.__originalMappings||this._parseMappings(this._mappings,this.sourceRoot),this.__originalMappings}}),t.prototype._charIsMappingSeparator=function(e,n){var r=e.charAt(n);return";"===r||","===r},t.prototype._parseMappings=function(e,n){throw new Error("Subclasses must implement _parseMappings")},t.GENERATED_ORDER=1,t.ORIGINAL_ORDER=2,t.GREATEST_LOWER_BOUND=1,t.LEAST_UPPER_BOUND=2,t.prototype.eachMapping=function(e,n,r){var o,i=n||null,s=r||t.GENERATED_ORDER;switch(s){case t.GENERATED_ORDER:o=this._generatedMappings;break;case t.ORIGINAL_ORDER:o=this._originalMappings;break;default:throw new Error("Unknown order of iteration.")}var u=this.sourceRoot;o.map(function(e){var n=null===e.source?null:this._sources.at(e.source);return n=a.computeSourceURL(u,n,this._sourceMapURL),{source:n,generatedLine:e.generatedLine,generatedColumn:e.generatedColumn,originalLine:e.originalLine,originalColumn:e.originalColumn,name:null===e.name?null:this._names.at(e.name)}},this).forEach(e,i)},t.prototype.allGeneratedPositionsFor=function(e){var n=a.getArg(e,"line"),r={source:a.getArg(e,"source"),originalLine:n,originalColumn:a.getArg(e,"column",0)};if(r.source=this._findSourceIndex(r.source),r.source<0)return[];var t=[],o=this._findMapping(r,this._originalMappings,"originalLine","originalColumn",a.compareByOriginalPositions,u.LEAST_UPPER_BOUND);if(o>=0){var i=this._originalMappings[o];if(void 0===e.column)for(var s=i.originalLine;i&&i.originalLine===s;)t.push({line:a.getArg(i,"generatedLine",null),column:a.getArg(i,"generatedColumn",null),lastColumn:a.getArg(i,"lastGeneratedColumn",null)}),i=this._originalMappings[++o];else for(var l=i.originalColumn;i&&i.originalLine===n&&i.originalColumn==l;)t.push({line:a.getArg(i,"generatedLine",null),column:a.getArg(i,"generatedColumn",null),lastColumn:a.getArg(i,"lastGeneratedColumn",null)}),i=this._originalMappings[++o]}return t},n.SourceMapConsumer=t,o.prototype=Object.create(t.prototype),o.prototype.consumer=t,o.prototype._findSourceIndex=function(e){var n=e;if(null!=this.sourceRoot&&(n=a.relative(this.sourceRoot,n)),this._sources.has(n))return this._sources.indexOf(n);var r;for(r=0;r<this._absoluteSources.length;++r)if(this._absoluteSources[r]==e)return r;return-1},o.fromSourceMap=function(e,n){var r=Object.create(o.prototype),t=r._names=l.fromArray(e._names.toArray(),!0),s=r._sources=l.fromArray(e._sources.toArray(),!0);r.sourceRoot=e._sourceRoot,r.sourcesContent=e._generateSourcesContent(r._sources.toArray(),r.sourceRoot),r.file=e._file,r._sourceMapURL=n,r._absoluteSources=r._sources.toArray().map(function(e){return a.computeSourceURL(r.sourceRoot,e,n)});for(var u=e._mappings.toArray().slice(),c=r.__generatedMappings=[],p=r.__originalMappings=[],h=0,f=u.length;h<f;h++){var d=u[h],m=new i;m.generatedLine=d.generatedLine,m.generatedColumn=d.generatedColumn,d.source&&(m.source=s.indexOf(d.source),m.originalLine=d.originalLine,m.originalColumn=d.originalColumn,d.name&&(m.name=t.indexOf(d.name)),p.push(m)),c.push(m)}return g(r.__originalMappings,a.compareByOriginalPositions),r},o.prototype._version=3,Object.defineProperty(o.prototype,"sources",{get:function(){return this._absoluteSources.slice()}}),o.prototype._parseMappings=function(e,n){for(var r,t,o,s,u,l=1,p=0,h=0,f=0,d=0,m=0,_=e.length,v=0,y={},C={},S=[],A=[];v<_;)if(";"===e.charAt(v))l++,v++,p=0;else if(","===e.charAt(v))v++;else{for(r=new i,r.generatedLine=l,s=v;s<_&&!this._charIsMappingSeparator(e,s);s++);if(t=e.slice(v,s),o=y[t])v+=t.length;else{for(o=[];v<s;)c.decode(e,v,C),u=C.value,v=C.rest,o.push(u);if(2===o.length)throw new Error("Found a source, but no line and column");if(3===o.length)throw new Error("Found a source and line, but no column");y[t]=o}r.generatedColumn=p+o[0],p=r.generatedColumn,o.length>1&&(r.source=d+o[1],d+=o[1],r.originalLine=h+o[2],h=r.originalLine,r.originalLine+=1,r.originalColumn=f+o[3],f=r.originalColumn,o.length>4&&(r.name=m+o[4],m+=o[4])),A.push(r),"number"==typeof r.originalLine&&S.push(r)}g(A,a.compareByGeneratedPositionsDeflated),this.__generatedMappings=A,g(S,a.compareByOriginalPositions),this.__originalMappings=S},o.prototype._findMapping=function(e,n,r,t,o,i){if(e[r]<=0)throw new TypeError("Line must be greater than or equal to 1, got "+e[r]);if(e[t]<0)throw new TypeError("Column must be greater than or equal to 0, got "+e[t]);return u.search(e,n,o,i)},o.prototype.computeColumnSpans=function(){for(var e=0;e<this._generatedMappings.length;++e){var n=this._generatedMappings[e];if(e+1<this._generatedMappings.length){var r=this._generatedMappings[e+1];if(n.generatedLine===r.generatedLine){n.lastGeneratedColumn=r.generatedColumn-1;continue}}n.lastGeneratedColumn=1\/0}},o.prototype.originalPositionFor=function(e){var n={generatedLine:a.getArg(e,"line"),generatedColumn:a.getArg(e,"column")},r=this._findMapping(n,this._generatedMappings,"generatedLine","generatedColumn",a.compareByGeneratedPositionsDeflated,a.getArg(e,"bias",t.GREATEST_LOWER_BOUND));if(r>=0){var o=this._generatedMappings[r];if(o.generatedLine===n.generatedLine){var i=a.getArg(o,"source",null);null!==i&&(i=this._sources.at(i),i=a.computeSourceURL(this.sourceRoot,i,this._sourceMapURL));var s=a.getArg(o,"name",null);return null!==s&&(s=this._names.at(s)),{source:i,line:a.getArg(o,"originalLine",null),column:a.getArg(o,"originalColumn",null),name:s}}}return{source:null,line:null,column:null,name:null}},o.prototype.hasContentsOfAllSources=function(){return!!this.sourcesContent&&(this.sourcesContent.length>=this._sources.size()&&!this.sourcesContent.some(function(e){return null==e}))},o.prototype.sourceContentFor=function(e,n){if(!this.sourcesContent)return null;var r=this._findSourceIndex(e);if(r>=0)return this.sourcesContent[r];var t=e;null!=this.sourceRoot&&(t=a.relative(this.sourceRoot,t));var o;if(null!=this.sourceRoot&&(o=a.urlParse(this.sourceRoot))){var i=t.replace(\/^file:\\\/\\\/\/,"");if("file"==o.scheme&&this._sources.has(i))return this.sourcesContent[this._sources.indexOf(i)];if((!o.path||"\/"==o.path)&&this._sources.has("\/"+t))return this.sourcesContent[this._sources.indexOf("\/"+t)]}if(n)return null;throw new Error('"'+t+'" is not in the SourceMap.')},o.prototype.generatedPositionFor=function(e){var n=a.getArg(e,"source");if(n=this._findSourceIndex(n),n<0)return{line:null,column:null,lastColumn:null};var r={source:n,originalLine:a.getArg(e,"line"),originalColumn:a.getArg(e,"column")},o=this._findMapping(r,this._originalMappings,"originalLine","originalColumn",a.compareByOriginalPositions,a.getArg(e,"bias",t.GREATEST_LOWER_BOUND));if(o>=0){var i=this._originalMappings[o];if(i.source===r.source)return{line:a.getArg(i,"generatedLine",null),column:a.getArg(i,"generatedColumn",null),lastColumn:a.getArg(i,"lastGeneratedColumn",null)}}return{line:null,column:null,lastColumn:null}},n.BasicSourceMapConsumer=o,s.prototype=Object.create(t.prototype),s.prototype.constructor=t,s.prototype._version=3,Object.defineProperty(s.prototype,"sources",{get:function(){for(var e=[],n=0;n<this._sections.length;n++)for(var r=0;r<this._sections[n].consumer.sources.length;r++)e.push(this._sections[n].consumer.sources[r]);return e}}),s.prototype.originalPositionFor=function(e){var n={generatedLine:a.getArg(e,"line"),generatedColumn:a.getArg(e,"column")},r=u.search(n,this._sections,function(e,n){var r=e.generatedLine-n.generatedOffset.generatedLine;return r?r:e.generatedColumn-n.generatedOffset.generatedColumn}),t=this._sections[r];return t?t.consumer.originalPositionFor({line:n.generatedLine-(t.generatedOffset.generatedLine-1),column:n.generatedColumn-(t.generatedOffset.generatedLine===n.generatedLine?t.generatedOffset.generatedColumn-1:0),bias:e.bias}):{source:null,line:null,column:null,name:null}},s.prototype.hasContentsOfAllSources=function(){return this._sections.every(function(e){return e.consumer.hasContentsOfAllSources()})},s.prototype.sourceContentFor=function(e,n){for(var r=0;r<this._sections.length;r++){var t=this._sections[r],o=t.consumer.sourceContentFor(e,!0);if(o)return o}if(n)return null;throw new Error('"'+e+'" is not in the SourceMap.')},s.prototype.generatedPositionFor=function(e){for(var n=0;n<this._sections.length;n++){var r=this._sections[n];if(r.consumer._findSourceIndex(a.getArg(e,"source"))!==-1){var t=r.consumer.generatedPositionFor(e);if(t){var o={line:t.line+(r.generatedOffset.generatedLine-1),column:t.column+(r.generatedOffset.generatedLine===t.line?r.generatedOffset.generatedColumn-1:0)};return o}}}return{line:null,column:null}},s.prototype._parseMappings=function(e,n){this.__generatedMappings=[],this.__originalMappings=[];for(var r=0;r<this._sections.length;r++)for(var t=this._sections[r],o=t.consumer._generatedMappings,i=0;i<o.length;i++){var s=o[i],u=t.consumer._sources.at(s.source);u=a.computeSourceURL(t.consumer.sourceRoot,u,this._sourceMapURL),this._sources.add(u),u=this._sources.indexOf(u);var l=null;s.name&&(l=t.consumer._names.at(s.name),this._names.add(l),l=this._names.indexOf(l));var c={source:u,generatedLine:s.generatedLine+(t.generatedOffset.generatedLine-1),generatedColumn:s.generatedColumn+(t.generatedOffset.generatedLine===s.generatedLine?t.generatedOffset.generatedColumn-1:0),originalLine:s.originalLine,originalColumn:s.originalColumn,name:l};this.__generatedMappings.push(c),"number"==typeof c.originalLine&&this.__originalMappings.push(c)}g(this.__generatedMappings,a.compareByGeneratedPositionsDeflated),g(this.__originalMappings,a.compareByOriginalPositions)},n.IndexedSourceMapConsumer=s},function(e,n){function r(e,t,o,i,s,a){var u=Math.floor((t-e)\/2)+e,l=s(o,i[u],!0);return 0===l?u:l>0?t-u>1?r(u,t,o,i,s,a):a==n.LEAST_UPPER_BOUND?t<i.length?t:-1:u:u-e>1?r(e,u,o,i,s,a):a==n.LEAST_UPPER_BOUND?u:e<0?-1:e}n.GREATEST_LOWER_BOUND=1,n.LEAST_UPPER_BOUND=2,n.search=function(e,t,o,i){if(0===t.length)return-1;var s=r(-1,t.length,e,t,o,i||n.GREATEST_LOWER_BOUND);if(s<0)return-1;for(;s-1>=0&&0===o(t[s],t[s-1],!0);)--s;return s}},function(e,n){function r(e,n,r){var t=e[n];e[n]=e[r],e[r]=t}function t(e,n){return Math.round(e+Math.random()*(n-e))}function o(e,n,i,s){if(i<s){var a=t(i,s),u=i-1;r(e,a,s);for(var l=e[s],c=i;c<s;c++)n(e[c],l)<=0&&(u+=1,r(e,u,c));r(e,u+1,c);var g=u+1;o(e,n,i,g-1),o(e,n,g+1,s)}}n.quickSort=function(e,n){o(e,n,0,e.length-1)}},function(e,n,r){function t(e,n,r,t,o){this.children=[],this.sourceContents={},this.line=null==e?null:e,this.column=null==n?null:n,this.source=null==r?null:r,this.name=null==o?null:o,this[u]=!0,null!=t&&this.add(t)}var o=r(1).SourceMapGenerator,i=r(4),s=\/(\\r?\\n)\/,a=10,u="$$$isSourceNode$$$";t.fromStringWithSourceMap=function(e,n,r){function o(e,n){if(null===e||void 0===e.source)a.add(n);else{var o=r?i.join(r,e.source):e.source;a.add(new t(e.originalLine,e.originalColumn,o,n,e.name))}}var a=new t,u=e.split(s),l=0,c=function(){function e(){return l<u.length?u[l++]:void 0}var n=e(),r=e()||"";return n+r},g=1,p=0,h=null;return n.eachMapping(function(e){if(null!==h){if(!(g<e.generatedLine)){var n=u[l]||"",r=n.substr(0,e.generatedColumn-p);return u[l]=n.substr(e.generatedColumn-p),p=e.generatedColumn,o(h,r),void(h=e)}o(h,c()),g++,p=0}for(;g<e.generatedLine;)a.add(c()),g++;if(p<e.generatedColumn){var n=u[l]||"";a.add(n.substr(0,e.generatedColumn)),u[l]=n.substr(e.generatedColumn),p=e.generatedColumn}h=e},this),l<u.length&&(h&&o(h,c()),a.add(u.splice(l).join(""))),n.sources.forEach(function(e){var t=n.sourceContentFor(e);null!=t&&(null!=r&&(e=i.join(r,e)),a.setSourceContent(e,t))}),a},t.prototype.add=function(e){if(Array.isArray(e))e.forEach(function(e){this.add(e)},this);else{if(!e[u]&&"string"!=typeof e)throw new TypeError("Expected a SourceNode, string, or an array of SourceNodes and strings. Got "+e);e&&this.children.push(e)}return this},t.prototype.prepend=function(e){if(Array.isArray(e))for(var n=e.length-1;n>=0;n--)this.prepend(e[n]);else{if(!e[u]&&"string"!=typeof e)throw new TypeError("Expected a SourceNode, string, or an array of SourceNodes and strings. Got "+e);this.children.unshift(e)}return this},t.prototype.walk=function(e){for(var n,r=0,t=this.children.length;r<t;r++)n=this.children[r],n[u]?n.walk(e):""!==n&&e(n,{source:this.source,line:this.line,column:this.column,name:this.name})},t.prototype.join=function(e){var n,r,t=this.children.length;if(t>0){for(n=[],r=0;r<t-1;r++)n.push(this.children[r]),n.push(e);n.push(this.children[r]),this.children=n}return this},t.prototype.replaceRight=function(e,n){var r=this.children[this.children.length-1];return r[u]?r.replaceRight(e,n):"string"==typeof r?this.children[this.children.length-1]=r.replace(e,n):this.children.push("".replace(e,n)),this},t.prototype.setSourceContent=function(e,n){this.sourceContents[i.toSetString(e)]=n},t.prototype.walkSourceContents=function(e){for(var n=0,r=this.children.length;n<r;n++)this.children[n][u]&&this.children[n].walkSourceContents(e);for(var t=Object.keys(this.sourceContents),n=0,r=t.length;n<r;n++)e(i.fromSetString(t[n]),this.sourceContents[t[n]])},t.prototype.toString=function(){var e="";return this.walk(function(n){e+=n}),e},t.prototype.toStringWithSourceMap=function(e){var n={code:"",line:1,column:0},r=new o(e),t=!1,i=null,s=null,u=null,l=null;return this.walk(function(e,o){n.code+=e,null!==o.source&&null!==o.line&&null!==o.column?(i===o.source&&s===o.line&&u===o.column&&l===o.name||r.addMapping({source:o.source,original:{line:o.line,column:o.column},generated:{line:n.line,column:n.column},name:o.name}),i=o.source,s=o.line,u=o.column,l=o.name,t=!0):t&&(r.addMapping({generated:{line:n.line,column:n.column}}),i=null,t=!1);for(var c=0,g=e.length;c<g;c++)e.charCodeAt(c)===a?(n.line++,n.column=0,c+1===g?(i=null,t=!1):t&&r.addMapping({source:o.source,original:{line:o.line,column:o.column},generated:{line:n.line,column:n.column},name:o.name})):n.column++}),this.walkSourceContents(function(e,n){r.setSourceContent(e,n)}),{code:n.code,map:r}},n.SourceNode=t}])});$/;"	v
+randomIntInRange	node_modules/source-map/lib/quick-sort.js	/^function randomIntInRange(low, high) {$/;"	f
+raw_token	node_modules/uglify-es/lib/mozilla-ast.js	/^    function raw_token(moznode) {$/;"	f
+read_escaped_char	node_modules/uglify-es/lib/parse.js	/^    function read_escaped_char(in_string) {$/;"	f
+read_name	node_modules/uglify-es/lib/parse.js	/^    var read_name = with_eof_error("Unterminated identifier name", function() {$/;"	v
+read_num	node_modules/uglify-es/lib/parse.js	/^    function read_num(prefix) {$/;"	f
+read_octal_escape_sequence	node_modules/uglify-es/lib/parse.js	/^    function read_octal_escape_sequence(ch) {$/;"	f
+read_operator	node_modules/uglify-es/lib/parse.js	/^    function read_operator(prefix) {$/;"	f
+read_operator.grow	node_modules/uglify-es/lib/parse.js	/^        function grow(op) {$/;"	f
+read_property	node_modules/uglify-es/lib/compress.js	/^        function read_property(obj, key) {$/;"	f
+read_regexp	node_modules/uglify-es/lib/parse.js	/^    var read_regexp = with_eof_error("Unterminated regular expression", function(source) {$/;"	v
+read_source_map	node_modules/uglify-es/lib/minify.js	/^function read_source_map(code) {$/;"	f
+read_string	node_modules/uglify-es/lib/parse.js	/^    var read_string = with_eof_error("Unterminated string constant", function(quote_char){$/;"	v
+read_template_characters	node_modules/uglify-es/lib/parse.js	/^    var read_template_characters = with_eof_error("Unterminated template", function(begin){$/;"	v
+read_while	node_modules/uglify-es/lib/parse.js	/^    function read_while(pred) {$/;"	f
+read_word	node_modules/uglify-es/lib/parse.js	/^    function read_word() {$/;"	f
+recursiveSearch	node_modules/source-map/lib/binary-search.js	/^function recursiveSearch(aLow, aHigh, aNeedle, aHaystack, aCompare, aBias) {$/;"	f
+recursive_ref	node_modules/uglify-es/lib/compress.js	/^    function recursive_ref(compressor, def) {$/;"	f
+ref_once	node_modules/uglify-es/lib/compress.js	/^        function ref_once(tw, compressor, def) {$/;"	f
+regular_for	node_modules/uglify-es/lib/parse.js	/^    function regular_for(init) {$/;"	f
+remove	node_modules/uglify-es/lib/utils.js	/^function remove(array, el) {$/;"	f
+repeat_string	node_modules/uglify-es/lib/utils.js	/^function repeat_string(str, i) {$/;"	f
+repository	node_modules/commander/package.json	/^  "repository": {$/;"	f
+repository	node_modules/source-map/package.json	/^  "repository": {$/;"	f
+repository	node_modules/uglify-es/package.json	/^  "repository": "https:\/\/github.com\/mishoo\/UglifyJS2.git#harmony",$/;"	f
+repository	package.json	/^  "repository": "https:\/\/github.com\/coolreader18\/switcharoo-bookmarklet.git",$/;"	f
+requireSemicolonChars	node_modules/uglify-es/lib/output.js	/^    var requireSemicolonChars = makePredicate("( [ + * \/ - , . `");$/;"	v
+reserve_quoted_keys	node_modules/uglify-es/lib/propmangle.js	/^function reserve_quoted_keys(ast, reserved) {$/;"	f
+reserve_quoted_keys.add	node_modules/uglify-es/lib/propmangle.js	/^    function add(name) {$/;"	f
+reset_block_variables	node_modules/uglify-es/lib/compress.js	/^        function reset_block_variables(compressor, node) {$/;"	f
+reset_def	node_modules/uglify-es/lib/compress.js	/^        function reset_def(compressor, def) {$/;"	f
+reset_variables	node_modules/uglify-es/lib/compress.js	/^        function reset_variables(tw, compressor, node) {$/;"	f
+result.timings.parse	node_modules/uglify-es/lib/minify.js	/^            result.timings = {$/;"	p
+return	node_modules/uglify-es/lib/utils.js	/^function HOP(obj, prop) {$/;"	c
+return.hasOwnProperty	node_modules/uglify-es/lib/utils.js	/^    return Object.prototype.hasOwnProperty.call(obj, prop);$/;"	m
+return_false	node_modules/uglify-es/lib/utils.js	/^function return_false() { return false; }$/;"	f
+return_null	node_modules/uglify-es/lib/utils.js	/^function return_null() { return null; }$/;"	f
+return_this	node_modules/uglify-es/lib/utils.js	/^function return_this() { return this; }$/;"	f
+return_true	node_modules/uglify-es/lib/utils.js	/^function return_true() { return true; }$/;"	f
+safe_to_assign	node_modules/uglify-es/lib/compress.js	/^        function safe_to_assign(tw, def, value) {$/;"	f
+safe_to_read	node_modules/uglify-es/lib/compress.js	/^        function safe_to_read(tw, def) {$/;"	f
+scripts	node_modules/commander/package.json	/^  "scripts": {$/;"	f
+scripts	node_modules/source-map/package.json	/^  "scripts": {$/;"	f
+scripts	node_modules/uglify-es/package.json	/^  "scripts": {$/;"	f
+scripts	package.json	/^  "scripts": {$/;"	f
+search	node_modules/source-map/lib/binary-search.js	/^exports.search = function search(aNeedle, aHaystack, aCompare, aBias) {$/;"	f
+semver	node_modules/uglify-es/package.json	/^    "semver": "~5.4.1"$/;"	f
+sequencesize	node_modules/uglify-es/lib/compress.js	/^        function sequencesize(statements, compressor) {$/;"	f
+sequencesize.push_seq	node_modules/uglify-es/lib/compress.js	/^            function push_seq() {$/;"	f
+sequencesize_2	node_modules/uglify-es/lib/compress.js	/^        function sequencesize_2(statements, compressor) {$/;"	f
+sequencesize_2.cons_seq	node_modules/uglify-es/lib/compress.js	/^            function cons_seq(right) {$/;"	f
+set_moz_loc	node_modules/uglify-es/lib/mozilla-ast.js	/^    function set_moz_loc(mynode, moznode, myparent) {$/;"	f
+set_shorthand	node_modules/uglify-es/lib/minify.js	/^function set_shorthand(name, options, keys) {$/;"	f
+shiftNextLine.getNextLine	node_modules/source-map/lib/source-node.js	/^      function getNextLine() {$/;"	f
+should	node_modules/commander/package.json	/^    "should": "^11.2.1",$/;"	f
+simple_statement	node_modules/uglify-es/lib/parse.js	/^    function simple_statement(tmp) {$/;"	f
+sinon	node_modules/commander/package.json	/^    "sinon": "^2.4.1",$/;"	f
+skip_line_comment	node_modules/uglify-es/lib/parse.js	/^    function skip_line_comment(type) {$/;"	f
+skip_multiline_comment	node_modules/uglify-es/lib/parse.js	/^    var skip_multiline_comment = with_eof_error("Unterminated multiline comment", function(){$/;"	v
+skip_whitespace	node_modules/uglify-es/lib/parse.js	/^    function skip_whitespace() {$/;"	f
+source-map	node_modules/uglify-es/package.json	/^    "source-map": "~0.6.1"$/;"	f
+spawn	node_modules/commander/index.js	/^var spawn = require('child_process').spawn;$/;"	v
+stack	node_modules/uglify-es/lib/output.js	/^    var stack = [];$/;"	v
+star	node_modules/uglify-es/lib/output.js	/^    var star = function(){$/;"	f
+start_token	node_modules/uglify-es/lib/parse.js	/^    function start_token() {$/;"	f
+statement	node_modules/uglify-es/lib/parse.js	/^    var statement = embed_tokens(function(is_export_default) {$/;"	v
+static_fns.Array	node_modules/uglify-es/lib/compress.js	/^    var static_fns = {$/;"	p
+static_values.Math	node_modules/uglify-es/lib/compress.js	/^        var static_values = {$/;"	p
+stream	node_modules/uglify-es/lib/minify.js	/^            var stream = OutputStream(options.output);$/;"	v
+string_template	node_modules/uglify-es/lib/utils.js	/^function string_template(text, props) {$/;"	f
+subscripts	node_modules/uglify-es/lib/parse.js	/^    var subscripts = function(expr, allow_calls) {$/;"	f
+swap	node_modules/source-map/lib/quick-sort.js	/^function swap(ary, x, y) {$/;"	f
+switch_body_	node_modules/uglify-es/lib/parse.js	/^    function switch_body_() {$/;"	f
+template_string	node_modules/uglify-es/lib/parse.js	/^    function template_string() {$/;"	f
+test	node_modules/commander/package.json	/^    "test": "make test && npm run test-typings",$/;"	f
+test	node_modules/source-map/package.json	/^    "test": "npm run build && node test\/run-tests.js",$/;"	f
+test	node_modules/uglify-es/package.json	/^    "test": "node test\/run-tests.js"$/;"	f
+test-typings	node_modules/commander/package.json	/^    "test-typings": "node_modules\/typescript\/bin\/tsc -p tsconfig.json"$/;"	f
+this.top_retain	node_modules/uglify-es/lib/compress.js	/^        this.top_retain = function(def) {$/;"	m
+tighten_body	node_modules/uglify-es/lib/compress.js	/^    function tighten_body(statements, compressor) {$/;"	f
+tighten_body.collapse	node_modules/uglify-es/lib/compress.js	/^        function collapse(statements, compressor) {$/;"	f
+tighten_body.find_stop	node_modules/uglify-es/lib/compress.js	/^            function find_stop(node, level) {$/;"	f
+tighten_body.get_lhs	node_modules/uglify-es/lib/compress.js	/^            function get_lhs(expr) {$/;"	f
+tighten_body.get_lvalues	node_modules/uglify-es/lib/compress.js	/^            function get_lvalues(expr) {$/;"	f
+tighten_body.get_rvalue	node_modules/uglify-es/lib/compress.js	/^            function get_rvalue(expr) {$/;"	f
+tighten_body.lhs_or_def	node_modules/uglify-es/lib/compress.js	/^            function lhs_or_def(node) {$/;"	f
+tighten_body.mangleable_var	node_modules/uglify-es/lib/compress.js	/^            function mangleable_var(var_def) {$/;"	f
+tighten_body.references_in_scope	node_modules/uglify-es/lib/compress.js	/^            function references_in_scope(def) {$/;"	f
+tighten_body.remove_candidate	node_modules/uglify-es/lib/compress.js	/^            function remove_candidate(expr) {$/;"	f
+tighten_body.side_effects_external	node_modules/uglify-es/lib/compress.js	/^            function side_effects_external(node, lhs) {$/;"	f
+tighten_body.value_has_side_effects	node_modules/uglify-es/lib/compress.js	/^            function value_has_side_effects(expr) {$/;"	f
+toVLQSigned	node_modules/source-map/lib/base64-vlq.js	/^function toVLQSigned(aValue) {$/;"	f
+to_destructuring	node_modules/uglify-es/lib/parse.js	/^    function to_destructuring(node) {$/;"	f
+to_fun_args	node_modules/uglify-es/lib/parse.js	/^    function to_fun_args(ex, _, __, default_seen_above) {$/;"	f
+to_fun_args.insert_default	node_modules/uglify-es/lib/parse.js	/^        var insert_default = function(ex, default_value) {$/;"	f
+to_json	node_modules/uglify-es/lib/minify.js	/^function to_json(cache) {$/;"	f
+to_moz	node_modules/uglify-es/lib/mozilla-ast.js	/^    function to_moz(node) {$/;"	f
+to_moz_block	node_modules/uglify-es/lib/mozilla-ast.js	/^    function to_moz_block(node) {$/;"	f
+to_moz_scope	node_modules/uglify-es/lib/mozilla-ast.js	/^    function to_moz_scope(type, node) {$/;"	f
+to_node	node_modules/uglify-es/lib/compress.js	/^        function to_node(value, orig) {$/;"	f
+to_simple_statement	node_modules/uglify-es/lib/compress.js	/^        function to_simple_statement(block, decls) {$/;"	f
+toc	node_modules/source-map/package.json	/^    "toc": "doctoc --title '## Table of Contents' README.md && doctoc --title '## Table of Contents' CONTRIBUTING.md"$/;"	f
+token	node_modules/uglify-es/lib/parse.js	/^    function token(type, value, is_comment) {$/;"	f
+token.ret.line	node_modules/uglify-es/lib/parse.js	/^            value   : value,$/;"	p
+token.ret.type	node_modules/uglify-es/lib/parse.js	/^        var ret = {$/;"	p
+token.ret.value	node_modules/uglify-es/lib/parse.js	/^            type    : type,$/;"	p
+tokenizer	node_modules/uglify-es/lib/parse.js	/^function tokenizer($TEXT, filename, html5_comments, shebang) {$/;"	f
+tokenizer.S.brace_counter	node_modules/uglify-es/lib/parse.js	/^        regex_allowed   : false,$/;"	p
+tokenizer.S.col	node_modules/uglify-es/lib/parse.js	/^        tokline         : 0,$/;"	p
+tokenizer.S.filename	node_modules/uglify-es/lib/parse.js	/^        text            : $TEXT,$/;"	p
+tokenizer.S.line	node_modules/uglify-es/lib/parse.js	/^        tokpos          : 0,$/;"	p
+tokenizer.S.newline_before	node_modules/uglify-es/lib/parse.js	/^        tokcol          : 0,$/;"	p
+tokenizer.S.pos	node_modules/uglify-es/lib/parse.js	/^        filename        : filename,$/;"	p
+tokenizer.S.regex_allowed	node_modules/uglify-es/lib/parse.js	/^        newline_before  : false,$/;"	p
+tokenizer.S.template_braces	node_modules/uglify-es/lib/parse.js	/^        brace_counter   : 0,$/;"	p
+tokenizer.S.text	node_modules/uglify-es/lib/parse.js	/^    var S = {$/;"	p
+tokenizer.S.tokcol	node_modules/uglify-es/lib/parse.js	/^        col             : 0,$/;"	p
+tokenizer.S.tokline	node_modules/uglify-es/lib/parse.js	/^        line            : 1,$/;"	p
+tokenizer.S.tokpos	node_modules/uglify-es/lib/parse.js	/^        pos             : 0,$/;"	p
+track_used_binding_identifiers	node_modules/uglify-es/lib/parse.js	/^    function track_used_binding_identifiers(is_parameter, strict) {$/;"	f
+track_used_binding_identifiers.tracker.add_parameter	node_modules/uglify-es/lib/parse.js	/^        var tracker = {$/;"	m
+try_	node_modules/uglify-es/lib/parse.js	/^    function try_() {$/;"	f
+type	node_modules/commander/package.json	/^    "type": "git",$/;"	f
+type	node_modules/source-map/package.json	/^    "type": "git",$/;"	f
+typescript	node_modules/commander/package.json	/^    "typescript": "^2.6.2"$/;"	f
+typings	node_modules/commander/package.json	/^  "typings": "typings\/index.d.ts"$/;"	f
+typings	node_modules/source-map/package.json	/^  "typings": "source-map"$/;"	f
+uglify-es	package.json	/^    "uglify-es": "^3.3.9"$/;"	f
+uglifyjs	node_modules/uglify-es/package.json	/^    "uglifyjs": "bin\/uglifyjs"$/;"	f
+unary	node_modules/uglify-es/lib/compress.js	/^        var unary = makePredicate("+ - ~ ++ --");$/;"	v
+unaryPrefix	node_modules/uglify-es/lib/compress.js	/^        var unaryPrefix = makePredicate("! ~ - + void");$/;"	v
+unary_side_effects	node_modules/uglify-es/lib/compress.js	/^    var unary_side_effects = makePredicate("delete ++ --");$/;"	v
+url	node_modules/commander/package.json	/^    "url": "https:\/\/github.com\/tj\/commander.js.git"$/;"	f
+url	node_modules/source-map/package.json	/^    "url": "http:\/\/github.com\/mozilla\/source-map.git"$/;"	f
+urlGenerate.join	node_modules/source-map/lib/util.js	/^function join(aRoot, aPath) {$/;"	f
+urlGenerate.normalize	node_modules/source-map/lib/util.js	/^function normalize(aPath) {$/;"	f
+urlParse	node_modules/source-map/lib/util.js	/^function urlParse(aUrl) {$/;"	f
+urlRegexp	node_modules/source-map/lib/util.js	/^var urlRegexp = \/^(?:([\\w+\\-.]+):)?\\\/\\\/(?:(\\w+:\\w+)@)?([\\w.-]*)(?::(\\d+))?(.*)$\/;$/;"	v
+use_asm	node_modules/uglify-es/lib/output.js	/^    var use_asm = null;$/;"	v
+util	node_modules/source-map/lib/array-set.js	/^var util = require('.\/util');$/;"	v
+util	node_modules/source-map/lib/mapping-list.js	/^var util = require('.\/util');$/;"	v
+util	node_modules/source-map/lib/source-map-consumer.js	/^var util = require('.\/util');$/;"	v
+util	node_modules/source-map/lib/source-map-generator.js	/^var util = require('.\/util');$/;"	v
+util	node_modules/source-map/lib/source-node.js	/^var util = require('.\/util');$/;"	v
+var_	node_modules/uglify-es/lib/parse.js	/^    var var_ = function(no_in) {$/;"	f
+vardefs	node_modules/uglify-es/lib/parse.js	/^    function vardefs(no_in, kind) {$/;"	f
+version	node_modules/commander/package.json	/^  "version": "2.13.0",$/;"	f
+version	node_modules/source-map/package.json	/^  "version": "0.6.1",$/;"	f
+version	node_modules/uglify-es/package.json	/^  "version": "3.3.9",$/;"	f
+version	package.json	/^  "version": "1.0.0",$/;"	f
+walk_body	node_modules/uglify-es/lib/ast.js	/^function walk_body(node, visitor) {$/;"	f
+webpack	node_modules/source-map/package.json	/^    "webpack": "^1.12.0"$/;"	f
+with_block	node_modules/uglify-es/lib/output.js	/^    function with_block(cont) {$/;"	f
+with_eof_error	node_modules/uglify-es/lib/parse.js	/^    function with_eof_error(eof_error, cont) {$/;"	f
+with_parens	node_modules/uglify-es/lib/output.js	/^    function with_parens(cont) {$/;"	f
+with_square	node_modules/uglify-es/lib/output.js	/^    function with_square(cont) {$/;"	f

@@ -1,41 +1,72 @@
-// ==Bookmarklet==
-// @name Switcharoo Bookmarklet
-// @author coolreader18
-// ==/Bookmarklet==
+/* @legume
+ * @name switcharoo
+ * @author coolreader18
+ * @require npm:jquery as $
+ */
 
-if ($(".border").length) {
-  $.getJSON("https://api.reddit.com/r/switcharoo/new?limit=1").done(data => {
-    $(".border ~ .buttons .reply-button a").click();
-    var editarea = $(".border").parents().eq(1).find(".usertext-edit");
-    editarea.find("textarea").val(`Ah, the ol' reddit [switcharoo](${data.data.children[0].data.url})!
+$("ul.flat-list.buttons").append(
+  $("<li>").append(
+    $('<a href="javascript:void(0)">switcharoo</a>').click(click)
+  )
+);
+function click() {
+  $.getJSON("https://api.reddit.com/r/switcharoo/new?limit=1")
+    .done(data => {
+      $(this)
+        .parents(".buttons")
+        .find(".reply-button a")
+        .click();
+      var editarea = $(this)
+        .parents(".thing")
+        .find(".usertext-edit");
 
-(make this creative/relevant and remove this message, then click save`);
-    editarea.find("button.save").click(() => {
-      var intrvl = setInterval(() => {
-        var perm = $(".border").parents().find(".child").children().eq(0).children().eq(0).data("permalink");
-        if (!perm) {
-          clearInterval(intrvl);
-        } else {
-          var newroo = `https://www.reddit.com${perm}`,
-          intent = prompt("What was the intended subject?"),
-          switched = prompt("What was it switched to?"),
-          context = prompt("How many comments before your switcharoo comment would someone need to read to understand it?"),
-          submiturl = new URL("https://www.reddit.com/r/switcharoo/submit"),
-          search = submiturl.searchParams;
-          search.append("url", newroo);
-          search.append("context", context);
-          search.append("title", `${intent} vs ${switched}`);
-          if (prompt("Please read the rules on the sidebar of the popup to make sure that your post follows them. To confirm that you can handle that reponsibility, type in \"switcharoo\".") == "switcharoo") {
-            window.open(submiturl.toString(), "_blank");
-          } else {
-            alert("Just be responsible next time");
+      editarea.find("textarea").val(`Ah, the ol' reddit [switcharoo](${
+        data.data.children[0].data.url
+      })!
+
+(make the above creative/relevant to the thread and remove this message, then click save)`);
+      editarea.find("button.save").click(() => {
+        const prevPerm = $(this)
+          .parents(".thing")
+          .find(".child .thing")
+          .data("permalink");
+        const intrvl = setInterval(() => {
+          const perm = $(this)
+            .parents(".thing")
+            .find(".child .thing")
+            .data("permalink");
+          if (perm != prevPerm) {
+            clearInterval(intrvl);
+            const roourl = new URL("https://www.reddit.com");
+            roourl.pathname = perm;
+            const submitUrl = new URL(
+              "https://www.reddit.com/r/switcharoo/submit"
+            );
+            Object.entries({
+              url: roourl,
+              context: prompt(
+                "How many comments before your switcharoo comment would someone need to read to understand it?"
+              ),
+              title: `${prompt("What was the intended subject?")} vs ${prompt(
+                "What was it switched to?"
+              )}`
+            }).forEach(cur => submitUrl.searchParams.append(...cur));
+            if (
+              prompt(
+                "Please read the rules on the sidebar of the popup to make sure that your post follows them. " +
+                  "If you do not, your post will likely be removed very quickly. " +
+                  'To confirm that you can handle that reponsibility, type in "switcharoo".'
+              ).toLowerCase() == "switcharoo"
+            ) {
+              window.open(submitUrl);
+            } else {
+              alert("Just be responsible next time");
+            }
           }
-        }
-      }, 10);
+        }, 10);
+      });
+    })
+    .fail(() => {
+      alert(new Error("Couldn't reach reddit, it may be blocked or down"));
     });
-  }).fail(() => {
-    alert(new Error("Couldn't reach reddit, it may be blocked or down"))
-  });
-} else {
-  alert(new Error("Couldn't find the permalinked comment, please click the \"permalink\" button underneath the comment that switches the subjects"));
 }
