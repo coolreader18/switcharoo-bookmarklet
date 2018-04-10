@@ -1,6 +1,6 @@
 {
   "name": "switcharoo-bookmarklet",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Ah, the ol ' bookmarklet to easily switcharoo!",
   "main": "switcharoo.js",
   "repository": "https://github.com/coolreader18/switcharoo-bookmarklet.git",

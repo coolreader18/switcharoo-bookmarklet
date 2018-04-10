@@ -693,7 +693,7 @@ vardefs	node_modules/uglify-es/lib/parse.js	/^    function vardefs(no_in, kind) 
 version	node_modules/commander/package.json	/^  "version": "2.13.0",$/;"	f
 version	node_modules/source-map/package.json	/^  "version": "0.6.1",$/;"	f
 version	node_modules/uglify-es/package.json	/^  "version": "3.3.9",$/;"	f
-version	package.json	/^  "version": "1.0.0",$/;"	f
+version	package.json	/^  "version": "2.0.0",$/;"	f
 walk_body	node_modules/uglify-es/lib/ast.js	/^function walk_body(node, visitor) {$/;"	f
 webpack	node_modules/source-map/package.json	/^    "webpack": "^1.12.0"$/;"	f
 with_block	node_modules/uglify-es/lib/output.js	/^    function with_block(cont) {$/;"	f
